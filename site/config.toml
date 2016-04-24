@@ -1,5 +1,6 @@
 baseurl = "http://scrambledegg.github.io/"
 languageCode = "ja-JP"
+hasCJKLanguage = true
 title = "scrambledegg's blog"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
