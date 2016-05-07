@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scrambledegg&#39;s blog</title>
+    <link>http://scrambledegg.github.io/</link>
+    <description>Recent content on scrambledegg&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sat, 23 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://scrambledegg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>試練の洞窟(11周年ver)</title>
+      <link>http://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</link>
+      <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</guid>
+      <description>
+
+&lt;h2 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h2&gt;
+
+&lt;p&gt;こんにちは、もいです。&lt;br /&gt;
+ネタでページ作ったはいいけれど、何も書かないのは寂しいので、
+今回は11周年イベントの試練の洞窟(11周年ver)の攻略を書いてみたいと思います。&lt;/p&gt;
+
+&lt;p&gt;攻略方法はおおまかに書くと、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;グリムリーパーさんまではFH&lt;/li&gt;
+&lt;li&gt;マスターリッチさんはヒュドラとフレンジー&lt;/li&gt;
+&lt;li&gt;グラスギブネンさんはマグ・螺旋斬・スマ&lt;/li&gt;
+&lt;li&gt;ドゥロさんはフレンジー&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;な感じです。&lt;/p&gt;
+
+&lt;p&gt;キャラスペック的にタゲ上限だと消える前に倒せず、
+半神・綿飴もったいない勢なので使えず…なので、
+そこそこ時間がかかってます(11分ちょい程度)が、割と安定してます。&lt;/p&gt;
+
+&lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
+
+&lt;h3 id=&#34;クモさんからグリムリーパーさんまで&#34;&gt;クモさんからグリムリーパーさんまで&lt;/h3&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;FHで頑張るの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;ひたすらFHで削るのみな感じです。&lt;br /&gt;
+グリムリーパーさん対策で、FHする前に序曲代わりに行進曲弾いとくと安心でした。
+(ギルマスみたいに足速くないので避けるのしんどい…)&lt;/p&gt;
+
+&lt;h3 id=&#34;グリムリーパーさん&#34;&gt;グリムリーパーさん&lt;/h3&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/02.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ぎりぎりまで削るの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;グリムリーパーさんはぎりぎりまで削っておいて、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ワープしてなかったら中央ヒュドラ&lt;/li&gt;
+&lt;li&gt;ワープしてたら中央にヒュドラ置いて隅から弓 or 手裏剣&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;で処理してます。&lt;br /&gt;
+ヒュドラはマスターリッチさんを削るために使います。&lt;/p&gt;
+
+&lt;h3 id=&#34;マスターリッチさん&#34;&gt;マスターリッチさん&lt;/h3&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/03.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ヒュドラさん頑張るの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;グリムリーパーさん倒す直前に置いたヒュドラで途中まで削ります。
+か弱いので、フレンジーだけで全部削るのは時間がかかり、
+途中でスキル使ってくるのが怖いのでこうしてます。
+(ヒュドラ汚いとか言わないで…)&lt;/p&gt;
+
+&lt;p&gt;途中まで削れたら、&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;行進曲で移動速度を上げる&lt;/li&gt;
+&lt;li&gt;シールドオブトラストでたまに来るガストの即タゲアタックに備える&lt;/li&gt;
+&lt;li&gt;闇討ちでタゲを貰わずに中央まで移動する&lt;/li&gt;
+&lt;li&gt;闇討ちが切れる前に人形置いてタゲを集中させる&lt;/li&gt;
+&lt;li&gt;人形にタゲがあるうちに子守唄で全員眠らせる&lt;/li&gt;
+&lt;li&gt;マスターリッチさんを倒したあとにガストが起きても殴られないよう壁を置く&lt;/li&gt;
+&lt;li&gt;フレンジーで残りを削る&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;でマスターリッチさんを倒してます。
+たまに壁立ててる間にマスターリッチからタゲもらうことが有りますが、
+危機脱出すればまた人形にタゲが行きます。
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/04.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;人形タゲ中に眠らせるの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/05.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;フレンジーで削るの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;グラスギブネンさん&#34;&gt;グラスギブネンさん&lt;/h3&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/06.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;光線待機無敵の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;ここは特別攻略らしいことやってないです。&lt;br /&gt;
+壁越しにマグ・螺旋斬 or 光ったらディフェンスなのでその間にスマで殴るとかやってます。
+ここで一番時間かかってますが、フレンジーはドゥロに残しておきたいのと、
+FHとかでゴリ押すがそこそこしんどいので、地道にやってます。&lt;/p&gt;
+
+&lt;p&gt;あと、光らずににスキル音がしたら、口から光線吐き出す以外はミルなので(だったはず)、
+避けとかないと冒頭の画像みたいになります。。&lt;/p&gt;
+
+&lt;h3 id=&#34;ドゥロさん&#34;&gt;ドゥロさん&lt;/h3&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/07.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;壁前で待機の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;来ましたドゥロさん！&lt;br /&gt;
+非ダウン &amp;amp; ワープ持ち &amp;amp; 高火力のキャラで、追いつかれないように戦わないと、
+か弱いのでしんどいです。
+ですが、ワープ持ちは壁とか(今回のステージだと溝か？)を背にすればワープAI中は攻撃し放題なので、
+そこそこやりやすいと思います。&lt;/p&gt;
+
+&lt;p&gt;彼は壁越しにフレンジーで倒しています。
+壁はすぐ壊れるので役立たずなのでは？と、そこそこの人に言われましたが、
+壁は壊れても消えるまで壁なので、むしろ消えるまでの数秒無敵の壁があると思えば結構足止め効果が高いです。&lt;/p&gt;
+
+&lt;p&gt;倒し方ですが、ドゥロさんが登場したら、&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ドゥロさんにタゲられないように、画面の端っこで壁を4つ立てる&lt;/li&gt;
+&lt;li&gt;サンドバースト用意してドゥロさんのタゲを取る&lt;/li&gt;
+&lt;li&gt;ドゥロさんが近づいてくるかワープしたら、壁の端っこにサンドバーストで足止め&lt;br /&gt;
+この時子守唄を使わないこと(いくら耐久はあまり気にしないといえど、ドゥロさんが殴ってすぐ壊れちゃ嫌なので)&lt;/li&gt;
+&lt;li&gt;ドゥロさんの反対側の壁に移動&lt;/li&gt;
+&lt;li&gt;セレスティアルスパイクをドゥロさんに打つ&lt;br /&gt;
+これは、移動速度を落とさせて、壁と壁の間のちょっとの移動時間も攻撃時間にするためです。
+微妙そうですが、壊されるまでの時間がそこそこ変わります。&lt;/li&gt;
+&lt;li&gt;フレンジーで削り切る&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;フレンジーで削り切る前に壁が全部壊されたら、
+サンドバーストで目潰し &amp;amp; ヒュドラ(汚いとか言わないで…)でいけそうです。&lt;/p&gt;
+
+&lt;p&gt;注意点は&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;フレンジーの届く位置に足止めする&lt;/li&gt;
+&lt;li&gt;自分の後ろにワープできる隙間を作らない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;です。&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/08.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ギリギリ、でも討伐成功の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;というわけで、まじめに書いた初めての記事でした！&lt;br /&gt;
+他にもこうしたら楽だよとか、こうしたらいいんじゃないとかあったら下のコメントにください。&lt;/p&gt;
+
+&lt;p&gt;それでは、良いMabinogiの日々を～。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About scrambledegg</title>
+      <link>http://scrambledegg.github.io/about/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://scrambledegg.github.io/about/</guid>
+      <description>
+
+&lt;p&gt;scrambledeggはルエリサーバ6chで活動しているギルドです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;メンバー ：現在３５名今はアクティブメンバーは５人程度になっています。&lt;/li&gt;
+&lt;li&gt;累積：１～１９ｋくらいです。&lt;/li&gt;
+&lt;li&gt;活動ｃｈ：６ｃｈ他のchでも構いません&lt;/li&gt;
+&lt;li&gt;活動時間：大体１９時あたりから２４時あたりです。社会人の方の比率が多めです。&lt;/li&gt;
+&lt;li&gt;たまり場 ：ダンバ広場枠の東&lt;/li&gt;
+&lt;li&gt;活動内容：狩りやら生産やらなんでも基本的に戦闘好きな人達です。。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;期待すること&#34;&gt;期待すること&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;メインキャラ&lt;/li&gt;
+&lt;li&gt;できれば週３回以上inできる方&lt;/li&gt;
+&lt;li&gt;友達作りたい方&lt;/li&gt;
+&lt;li&gt;いろいろ頑張りたい方&lt;/li&gt;
+&lt;li&gt;HD累積の人ばかりですが、初心者の人も大歓迎です。&lt;/li&gt;
+&lt;li&gt;元々身内ギルドでしたのでくだけた喋り方をする人、マイペースな人がいますが気にしない方あまり敬語で喋ったりしないギルドです。(ただ、慣れるまではみんな敬語です。）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;後、サブマスから…&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;寝落ちを許せる心の広い方←重要&lt;/li&gt;
+&lt;li&gt;サブマスの下手な戦闘を優しく見守ってくれる方←重要&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;そして代理の人から…&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ジャイをバカにしない方←重要&lt;/li&gt;
+&lt;li&gt;代理マスターをオッサン呼ばわりしない方←重要&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;加入条件&#34;&gt;加入条件&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一般常識がある&lt;/li&gt;
+&lt;li&gt;ネクソンの規約が守れる&lt;/li&gt;
+&lt;li&gt;他者に迷惑行為をしない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;という感じになっております。
+興味をもってくれた方はぜひギルド石を叩いてください！
+体験したいという方もOKです！脱退自由ですが、一言メモ、又はメッセをもらえるとありがたいです。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ブログ作ってみました</title>
+      <link>http://scrambledegg.github.io/blog/2016/04/hello-blog/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://scrambledegg.github.io/blog/2016/04/hello-blog/</guid>
+      <description>&lt;p&gt;ここはルエリ6chで活躍する赤色大好きジャイアントが牽引するギルド「scrambledegg」のネタページです。&lt;/p&gt;
+
+&lt;p&gt;ちなみに上の画像はにゃんこが大好きな某ギルメンが作ったものを、ご好意で使わせてもらいました！
+ありがとうございます！&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
