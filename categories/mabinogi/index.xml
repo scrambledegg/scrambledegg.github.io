@@ -6,8 +6,141 @@
     <description>Recent content in mabinogi on scrambledegg&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 23 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 May 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://scrambledegg.github.io/categories/mabinogi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>特別改造の確率</title>
+      <link>http://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</link>
+      <pubDate>Sun, 08 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</guid>
+      <description>
+
+&lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
+
+&lt;p&gt;久々に石改造しました、もいです、こんばんは。&lt;/p&gt;
+
+&lt;p&gt;なかなか5段にならないので、果たしてどのくらい確率が低いのか
+ちょっぴり計算してみました。&lt;br /&gt;
+小難しい話はよくわかんないですが、
+一次元非対称ランダムウォーク(吸収壁あり)とか言うやつっぽいです。&lt;br /&gt;
+いや、違うかもしれないです。よくわかんないです。&lt;/p&gt;
+
+&lt;h1 id=&#34;計算する&#34;&gt;計算する&lt;/h1&gt;
+
+&lt;p&gt;用意する石の個数と5段階改造が成功確率を求めます。
+まず、改造の成功率をまとめます。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;改造段階&lt;/th&gt;
+&lt;th&gt;成功率&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0 -&amp;gt; 1&lt;/td&gt;
+&lt;td&gt;50%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1 -&amp;gt; 2&lt;/td&gt;
+&lt;td&gt;50%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2 -&amp;gt; 3&lt;/td&gt;
+&lt;td&gt;50%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3 -&amp;gt; 4&lt;/td&gt;
+&lt;td&gt;45%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4 -&amp;gt; 5&lt;/td&gt;
+&lt;td&gt;45%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;この表から、遷移確率行列とかいう $i$ から $j$ への遷移確率を($i$, $j$)成分に持つような行列 $P$ を書きます。
+
+$$
+P = \left(
+    \begin{array}{cccccc}
+          0 &amp;   1 &amp;    0 &amp;    0 &amp;    0 &amp;    0 \\
+        0.5 &amp;   0 &amp;  0.5 &amp;    0 &amp;    0 &amp;    0 \\
+          0 &amp; 0.5 &amp;    0 &amp;  0.5 &amp;    0 &amp;    0 \\
+          0 &amp;   0 &amp; 0.55 &amp;    0 &amp; 0.45 &amp;    0 \\
+          0 &amp;   0 &amp;    0 &amp; 0.55 &amp;    0 &amp; 0.45 \\
+          0 &amp;   0 &amp;    0 &amp;    0 &amp;    0 &amp;    1 \\
+    \end{array}
+    \right)\\
+$$
+
+&lt;/p&gt;
+
+&lt;p&gt;今回は5段階改造の成功率なので、0段階改造から始めて5段階改造に遷移する確率、
+すなわち、(1, 6)成分の確率が求めたい成功率になると思います。
+この$P$を$n$乗してあげれば、$n$個石を使った時の成功率になります。&lt;/p&gt;
+
+&lt;p&gt;さて、この$P^n$の指数$n$を増やしながら、
+石をいくつ使うとどのくらいの確率で5段になるのか計算した結果、次のグラフのようになりました。
+&lt;div id=&#34;chart&#34;&gt;&lt;/div&gt;
+(6段する勇気ないので5段までですごめんなさい。)&lt;/p&gt;
+
+&lt;p&gt;23個使って初めて50%超える感じです。&lt;br /&gt;
+60個突っ込んでも90%行きません。&lt;br /&gt;
+がくぶる！&lt;/p&gt;
+
+&lt;p&gt;計算が違うよーとか、あれば下のコメントにください。&lt;br /&gt;
+ではでは、良きMabinogiの日々を～。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;以下確率計算に使ったソース(間違ってるかも)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#!/bin/env python3
+import numpy as np
+
+# 遷移確率行列
+P = np.array([
+    [  0,   1,    0,    0,    0,    0],
+    [0.5,   0,  0.5,    0,    0,    0],
+    [  0, 0.5,    0,  0.5,    0,    0],
+    [  0,   0, 0.55,    0, 0.45,    0],
+    [  0,   0,    0, 0.55,    0, 0.45],
+    [  0,   0,    0,    0,    0,    1],
+],  dtype=np.float64)
+# 初期は0段
+INITIAL_PROB = np.array([1, 0, 0, 0, 0, 0])
+# 石の数
+NUM = 150
+
+powerP = INITIAL_PROB
+for i in range(NUM):
+    print(powerP @ np.array([0,0,0,0,0,1]).T)
+    powerP = powerP @ P
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.css&#34;&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://scrambledegg.github.io/js/2016/05/08/script.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+
+  MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;]] } });
+
+
+&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>試練の洞窟(11周年ver)</title>
