@@ -1,4 +1,4 @@
-baseurl = "http://scrambledegg.github.io/"
+baseurl = "https://scrambledegg.github.io/"
 languageCode = "ja-JP"
 hasCJKLanguage = true
 title = "scrambledegg's blog"
