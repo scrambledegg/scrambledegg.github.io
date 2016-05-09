@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mabinogi on scrambledegg&#39;s blog</title>
-    <link>http://scrambledegg.github.io/categories/mabinogi/</link>
+    <link>https://scrambledegg.github.io/categories/mabinogi/</link>
     <description>Recent content in mabinogi on scrambledegg&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <lastBuildDate>Sun, 08 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://scrambledegg.github.io/categories/mabinogi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://scrambledegg.github.io/categories/mabinogi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>特別改造の確率</title>
-      <link>http://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</link>
+      <title>特別改造の成功率</title>
+      <link>https://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</link>
       <pubDate>Sun, 08 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</guid>
+      <guid>https://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</guid>
       <description>
 
 &lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
 
-&lt;p&gt;久々に石改造しました、もいです、こんばんは。&lt;/p&gt;
+&lt;p&gt;久々に特別改造しました、もいです、こんばんは。&lt;/p&gt;
 
-&lt;p&gt;なかなか5段にならないので、果たしてどのくらい確率が低いのか
+&lt;p&gt;なかなか5段階にならないので、果たしてどのくらい確率が低いのか
 ちょっぴり計算してみました。&lt;br /&gt;
 小難しい話はよくわかんないですが、
 一次元非対称ランダムウォーク(吸収壁あり)とか言うやつっぽいです。&lt;br /&gt;
@@ -86,19 +86,22 @@ $$
 &lt;/p&gt;
 
 &lt;p&gt;今回は5段階改造の成功率なので、0段階改造から始めて5段階改造に遷移する確率、
-すなわち、(1, 6)成分の確率が求めたい成功率になると思います。
-この$P$を$n$乗してあげれば、$n$個石を使った時の成功率になります。&lt;/p&gt;
+すなわち(1, 6)成分の確率が求めたい成功率になると思います。
+この$P$を$n$乗してあげれば$n$個石を使った時の成功率になります。&lt;/p&gt;
+
+&lt;p&gt;(6, 6)成分の確率について、本来の特別改造だと5段階から5段階への遷移はありませんが、
+ここを1にしてあげることで、$P^n$の$6$列目の確率は$n$個石を使うまでに5段階になる確率の累計になります。&lt;/p&gt;
 
 &lt;p&gt;さて、この$P^n$の指数$n$を増やしながら、
-石をいくつ使うとどのくらいの確率で5段になるのか計算した結果、次のグラフのようになりました。
+石をいくつ使うとどのくらいの確率で5段階になるのか計算した結果、次のグラフのようになりました。
 &lt;div id=&#34;chart&#34;&gt;&lt;/div&gt;
-(6段する勇気ないので5段までですごめんなさい。)&lt;/p&gt;
+(6段階する勇気ないので5段階までですごめんなさい。)&lt;/p&gt;
 
 &lt;p&gt;23個使って初めて50%超える感じです。&lt;br /&gt;
 60個突っ込んでも90%行きません。&lt;br /&gt;
 がくぶる！&lt;/p&gt;
 
-&lt;p&gt;計算が違うよーとか、あれば下のコメントにください。&lt;br /&gt;
+&lt;p&gt;計算が違うよーとかあれば下のコメントにください。&lt;br /&gt;
 ではでは、良きMabinogiの日々を～。&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -117,7 +120,7 @@ P = np.array([
     [  0,   0,    0, 0.55,    0, 0.45],
     [  0,   0,    0,    0,    0,    1],
 ],  dtype=np.float64)
-# 初期は0段
+# 初期は0段階
 INITIAL_PROB = np.array([1, 0, 0, 0, 0, 0])
 # 石の数
 NUM = 150
@@ -131,7 +134,7 @@ for i in range(NUM):
 &lt;p&gt;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.css&#34;&gt;
 &lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://scrambledegg.github.io/js/2016/05/08/script.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://scrambledegg.github.io/js/2016/05/08/script.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/x-mathjax-config&#34;&gt;
 
   MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;]] } });
@@ -144,10 +147,10 @@ for i in range(NUM):
     
     <item>
       <title>試練の洞窟(11周年ver)</title>
-      <link>http://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</link>
+      <link>https://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</link>
       <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</guid>
+      <guid>https://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</guid>
       <description>
 
 &lt;h2 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h2&gt;
@@ -178,7 +181,7 @@ for i in range(NUM):
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/01.jpg&#34; /&gt;
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/01.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -198,7 +201,7 @@ for i in range(NUM):
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/02.jpg&#34; /&gt;
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/02.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -224,7 +227,7 @@ for i in range(NUM):
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/03.jpg&#34; /&gt;
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/03.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -258,7 +261,7 @@ for i in range(NUM):
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/04.jpg&#34; /&gt;
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/04.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -271,7 +274,7 @@ for i in range(NUM):
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/05.jpg&#34; /&gt;
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/05.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -287,7 +290,7 @@ for i in range(NUM):
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/06.jpg&#34; /&gt;
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/06.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -311,7 +314,7 @@ FHとかでゴリ押すがそこそこしんどいので、地道にやってま
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/07.jpg&#34; /&gt;
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/07.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -361,7 +364,7 @@ FHとかでゴリ押すがそこそこしんどいので、地道にやってま
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://scrambledegg.github.io/img/2016/04/24/08.jpg&#34; /&gt;
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/08.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -381,10 +384,10 @@ FHとかでゴリ押すがそこそこしんどいので、地道にやってま
     
     <item>
       <title>ブログ作ってみました</title>
-      <link>http://scrambledegg.github.io/blog/2016/04/hello-blog/</link>
+      <link>https://scrambledegg.github.io/blog/2016/04/hello-blog/</link>
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://scrambledegg.github.io/blog/2016/04/hello-blog/</guid>
+      <guid>https://scrambledegg.github.io/blog/2016/04/hello-blog/</guid>
       <description>&lt;p&gt;ここはルエリ6chで活躍する赤色大好きジャイアントが牽引するギルド「scrambledegg」のネタページです。&lt;/p&gt;
 
 &lt;p&gt;ちなみに上の画像はにゃんこが大好きな某ギルメンが作ったものを、ご好意で使わせてもらいました！
