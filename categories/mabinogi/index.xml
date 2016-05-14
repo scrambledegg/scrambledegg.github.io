@@ -94,8 +94,9 @@ $$
 
 &lt;p&gt;さて、この$P^n$の指数$n$を増やしながら、
 石をいくつ使うとどのくらいの確率で5段階になるのか計算した結果、次のグラフのようになりました。
-&lt;div id=&#34;chart&#34;&gt;&lt;/div&gt;
-(6段階する勇気ないので5段階までですごめんなさい。)&lt;/p&gt;
+&lt;div id=&#34;chart&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;(6段階する勇気ないので5段階までですごめんなさい。)&lt;/p&gt;
 
 &lt;p&gt;23個使って初めて50%超える感じです。&lt;br /&gt;
 60個突っ込んでも90%行きません。&lt;br /&gt;
@@ -132,6 +133,7 @@ for i in range(NUM):
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.css&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://scrambledegg.github.io/css/chart.css&#34;&gt;
 &lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://scrambledegg.github.io/js/2016/05/08/script.js&#34;&gt;&lt;/script&gt;
