@@ -10,7 +10,7 @@ googleAnalytics = "UA-66624669-5"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "ルエリサーバ 6chで活動するギルドscrambledeggのブログです"
+    description          = "マビノギ ルエリサーバ 6chで活動するギルドscrambledeggのブログです"
     # This will appear on the top left of the navigation bar
     navbarTitle          = "scrambledegg"
     # Social media buttons that appear on the sidebar
@@ -40,7 +40,7 @@ googleAnalytics = "UA-66624669-5"
 [params.intro]
     header    = "scrambledegg's blog"
 
-    paragraph = "ルエリサーバ 6chで活動するギルドscrambledeggのブログです"
+    paragraph = "マビノギ ルエリサーバ 6chで活動するギルドscrambledeggのブログです"
 
     about     = "ギルド石はダンバートン北。たまり場はダンバートンの広場です！"
 
