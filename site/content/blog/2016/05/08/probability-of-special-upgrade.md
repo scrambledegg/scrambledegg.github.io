@@ -57,7 +57,8 @@ $$
 
 さて、この$P^n$の指数$n$を増やしながら、
 石をいくつ使うとどのくらいの確率で5段階になるのか計算した結果、次のグラフのようになりました。
-<div id="chart"></div>
+<div id="chart" class="chart"></div>
+
 (6段階する勇気ないので5段階までですごめんなさい。)
 
 23個使って初めて50%超える感じです。  
@@ -94,6 +95,7 @@ for i in range(NUM):
 ```
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.css">
+<link rel="stylesheet" href="/css/chart.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
 <script src="/js/2016/05/08/script.js"></script>
