@@ -59,7 +59,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;0 -&amp;gt; 1&lt;/td&gt;
-&lt;td&gt;50%&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -84,7 +84,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;この表から、遷移確率行列とかいう $i$ から $j$ への遷移確率を($i$, $j$)成分に持つような行列 $P$ を書きます。
+&lt;p&gt;この表を参考に、遷移確率行列とかいう $i$ から $j$ への遷移確率を($i$, $j$)成分に持つような行列 $P$ を書きます。
 
 $$
 P = \left(
