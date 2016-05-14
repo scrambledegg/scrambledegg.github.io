@@ -72,16 +72,19 @@ googleAnalytics = "UA-66624669-5"
 [[menu.main]]
     name = "Categories"
     url = "/categories"
+    identifier = "fa fa-sitemap"
     weight = 2
 
 [[menu.main]]
     name = "Tool"
     url = "/tool"
+    identifier = "fa fa-wrench"
     weight = 3
 
 [[menu.main]]
     name = "About"
     url = "/about"
+    identifier = "fa fa-users"
     weight = 4
 
 # Insert your username and the icon will apear on the page as long as
