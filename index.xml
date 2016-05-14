@@ -6,8 +6,24 @@
     <description>Recent content on scrambledegg&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 08 May 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 May 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://scrambledegg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>お役立ち?</title>
+      <link>https://scrambledegg.github.io/tool/</link>
+      <pubDate>Sat, 14 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/tool/</guid>
+      <description>&lt;p&gt;お役立つかわからないものを適当に作っておいてます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://scrambledegg.github.io/mabi-fav-rating2&#34;&gt;私の騎士団好感度メモ帳ローテーションメモ&lt;/a&gt;&lt;br /&gt;
+私の騎士団の好感度のテーブルをローテションしながら記録できるやーつです。
+ただ、wikiによると98とか99とかもあったりするらしいけれど、97までしかないです。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>特別改造の成功率</title>
