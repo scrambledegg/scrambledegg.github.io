@@ -32,8 +32,8 @@ googleAnalytics = "UA-66624669-5"
     # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you
     # can load multiple files if necessary. You can also load the standard theme
     # files by adding the value, "default".
-    customCSS            = ["/css/main.min.css", "/css/custom.css"]
-    customJS             = ["/js/main.min.js"]
+    customCSS            = ["default", "/css/custom.css"]
+    customJS             = ["default"]
 
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
