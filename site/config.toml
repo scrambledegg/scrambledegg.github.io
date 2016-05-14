@@ -75,9 +75,14 @@ googleAnalytics = "UA-66624669-5"
     weight = 2
 
 [[menu.main]]
+    name = "Tool"
+    url = "/tool"
+    weight = 3
+
+[[menu.main]]
     name = "About"
     url = "/about"
-    weight = 3
+    weight = 4
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
