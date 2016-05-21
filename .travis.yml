@@ -16,13 +16,17 @@ before_install:
   - mv deploy_key ~/.ssh/deploy_key
   - chmod 600 ~/.ssh/deploy_key
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\nIdentityFile ~/.ssh/deploy_key\n"  >> ~/.ssh/config
+
 install:
   - go get -u github.com/spf13/hugo
+  - go get -u github.com/tdewolff/minify/cmd/minify
 
 script:
   - pushd site
   - hugo -t hugo-future-imperfect
   - popd
+  - minify -r site/public
+
 after_success:
   - ignored_dir=$(mktemp -d ignored_dir_XXXXXX)
   - git clone --depth=1 --branch=master --quiet git@github.com:scrambledegg/scrambledegg.github.io.git $ignored_dir
