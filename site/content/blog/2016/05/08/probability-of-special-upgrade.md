@@ -71,7 +71,7 @@ $$
 ---
 以下確率計算に使ったソース(間違ってるかも)
 ```python
-#!/bin/env python3
+#!/usr/bin/env python3
 import numpy as np
 
 # 遷移確率行列
