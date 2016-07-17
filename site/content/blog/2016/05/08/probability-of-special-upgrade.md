@@ -90,7 +90,7 @@ NUM = 150
 
 powerP = INITIAL_PROB
 for i in range(NUM):
-    print(powerP @ np.array([0,0,0,0,0,1]).T)
+    print(powerP @ np.array([0,0,0,0,0,1]).T * 100)
     powerP = powerP @ P
 ```
 
