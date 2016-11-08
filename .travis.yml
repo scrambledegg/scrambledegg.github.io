@@ -38,7 +38,7 @@ before_install:
 
 install:
   - go get -u github.com/spf13/hugo
-  - go get -u github.com/tdewolff/minify/cmd/minify
+  - go get -u gopkg.in/tdewolff/minify.v2/cmd/minify
 
 script:
   - pushd site
