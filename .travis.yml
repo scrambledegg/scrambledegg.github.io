@@ -37,7 +37,13 @@ before_install:
   - npm install --save-dev grunt-image
 
 install:
-  - go get -u github.com/spf13/hugo
+  - wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz
+  - tar xvf hugo_0.17_Linux-64bit.tar.gz
+  - mkdir -p $GOPATH/bin
+  - mv hugo_0.17_linux_amd64/hugo_0.17_linux_amd64 $GOPATH/bin/hugo
+  - rm -rf hugo_0.17_linux_amd64/
+  - rm hugo_0.17_Linux-64bit.tar.gz
+
   - go get -u gopkg.in/tdewolff/minify.v2/cmd/minify
 
 script:
