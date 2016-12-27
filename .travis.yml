@@ -44,13 +44,10 @@ install:
   - rm -rf hugo_0.17_linux_amd64/
   - rm hugo_0.17_Linux-64bit.tar.gz
 
-  - go get -u gopkg.in/tdewolff/minify.v2/cmd/minify
-
 script:
   - pushd site
   - hugo -t hugo-future-imperfect
   - popd
-  - minify -r site/public
   - grunt image
 
 after_success:
