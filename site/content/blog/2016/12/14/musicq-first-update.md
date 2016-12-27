@@ -67,11 +67,11 @@ Hさんいわく、コルプレのラッパを使うと
 ネイル・イヴォナの評判上げに必要な300文字以上の1分楽譜を作りました！
 良かったらどうぞ…
 
-メロディー
+メロディー  
 <input type="text" id="raw-mml" value="t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4">
 <button class="clipboard-btn" data-clipboard-target="#raw-mml"><span class="fa fa-clipboard"></span></button>
 
-クリップボードから読み込めるver
+クリップボードから読み込めるver  
 <input type="text" id="readable-from-clipboard-mml" value="MML@t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4;">
 <button class="clipboard-btn" data-clipboard-target="#readable-from-clipboard-mml"><span class="fa fa-clipboard"></span></button>
 
