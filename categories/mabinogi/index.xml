@@ -2,8 +2,8 @@
 &lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
 &lt;p&gt;Mabinogiは無音設定なので久々に音を聞きながらプレイしているもいです。
 こんばんは。&lt;br /&gt;
-MusicQ firstアップデートとやらが来たので、
-ギルメンのHさんとフリースタイルジャムで遊んできました！&lt;/p&gt;
+MusicQ Firstアップデートとやらが来たので、
+ギルメンのHさんとフリースタイルジャムで遊んできました。&lt;/p&gt;
 &lt;h1 id=&#34;フリースタイルジャム&#34;&gt;フリースタイルジャム&lt;/h1&gt;
 &lt;p&gt;
 &lt;figure &gt;
@@ -59,12 +59,37 @@ Hさんいわく、コルプレのラッパを使うと&lt;/p&gt;
 &lt;h1 id=&#34;おわりに&#34;&gt;おわりに&lt;/h1&gt;
 &lt;p&gt;演奏とかしないからどうなんだろう、と思っていましたが、
 私も恩恵を受けられそうなアップデートでした！&lt;/p&gt;
-&lt;p&gt;ではでは、よきmabinogiの日々を～。&lt;/p&gt;
+&lt;p&gt;ではでは、良きmabinogiの日々を～。&lt;/p&gt;
 &lt;h1 id=&#34;おまけ&#34;&gt;おまけ&lt;/h1&gt;
 &lt;p&gt;ネイル・イヴォナの評判上げに必要な300文字以上の1分楽譜を作りました！
 良かったらどうぞ…&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4
-&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>ファンタズムブレイカー</title><link>https://scrambledegg.github.io/blog/2016/11/28/phantasm-breaker/</link><pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/11/28/phantasm-breaker/</guid><description>&lt;p&gt;なんと…
+&lt;p&gt;メロディー
+&lt;input type=&#34;text&#34; id=&#34;raw-mml&#34; value=&#34;t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4&#34;&gt;
+&lt;button class=&#34;clipboard-btn&#34; data-clipboard-target=&#34;#raw-mml&#34;&gt;&lt;span class=&#34;fa fa-clipboard&#34;&gt;&lt;/span&gt;&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;クリップボードから読み込めるver
+&lt;input type=&#34;text&#34; id=&#34;readable-from-clipboard-mml&#34; value=&#34;MML@t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4;&#34;&gt;
+&lt;button class=&#34;clipboard-btn&#34; data-clipboard-target=&#34;#readable-from-clipboard-mml&#34;&gt;&lt;span class=&#34;fa fa-clipboard&#34;&gt;&lt;/span&gt;&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css&#34;&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.16/clipboard.min.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+.clipboard-btn {
+text-transform: none;
+}
+&lt;/style&gt;
+&lt;script&gt;
+const clipboard = new Clipboard(&#39;.clipboard-btn&#39;);
+clipboard.on(&#39;success&#39;, function(e) {
+const btn = e.trigger;
+btn.setAttribute(&#34;data-balloon&#34;, &#34;copied&#34;)
+btn.setAttribute(&#34;data-balloon-pos&#34;, &#34;down&#34;)
+btn.setAttribute(&#34;data-balloon-visible&#34;, &#34;&#34;)
+setTimeout(function(){
+btn.removeAttribute(&#34;data-balloon&#34;)
+btn.removeAttribute(&#34;data-balloon-pos&#34;, &#34;down&#34;)
+btn.removeAttribute(&#34;data-balloon-visible&#34;)
+}, 500);
+});
+&lt;/script&gt;</description></item><item><title>ファンタズムブレイカー</title><link>https://scrambledegg.github.io/blog/2016/11/28/phantasm-breaker/</link><pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/11/28/phantasm-breaker/</guid><description>&lt;p&gt;なんと…
 &lt;figure &gt;
 &lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/01.jpg&#34; /&gt;
 &lt;figcaption&gt;
