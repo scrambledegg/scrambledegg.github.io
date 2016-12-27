@@ -1,1 +1,24 @@
-.chart{max-width:100%}@media screen and (min-width:1280px){.chart{max-width:calc(100vw - (22em + 3em + (3em * 2) + (3em * 2) + (1px * 2)))}}@media screen and (min-width:1440px){.chart{max-width:calc(90em - (22em + 3em + (3em * 2) + (3em * 2) + (1px * 2)))}}@media screen and (min-width:1680px){.chart{max-width:calc(90em - (22em + 3em + (4.5em * 2) + (3em * 2) + (1px * 2)))}}
+.chart {
+    max-width: 100%
+}
+
+@media screen and (min-width: 1280px) {
+    .chart {
+    /* .wrapper-width - (.sidebar-width + .sidebar-margin-right + .wrapper-padding + .post-padding + .padding-border-width) */
+    max-width: calc(100vw - (22em + 3em + (3em * 2) + (3em * 2) + (1px * 2)));
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .chart {
+        /* .wrapper-width - (.sidebar-width + .sidebar-margin-right + .wrapper-padding + .post-padding + .padding-border-width) */
+        max-width: calc(90em - (22em + 3em + (3em * 2) + (3em * 2) + (1px * 2)));
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .chart {
+        max-width: calc(90em - (22em + 3em + (4.5em * 2) + (3em * 2) + (1px * 2)));
+    }
+}
+

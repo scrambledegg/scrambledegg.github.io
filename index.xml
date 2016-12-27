@@ -1,296 +1,529 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>scrambledegg&#39;s blog</title><link>https://scrambledegg.github.io/index.xml</link><description>Recent content on scrambledegg&#39;s blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Wed, 14 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://scrambledegg.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>MusicQ Firstアップデート</title><link>https://scrambledegg.github.io/blog/2016/12/14/musicq-first-update/</link><pubDate>Wed, 14 Dec 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/12/14/musicq-first-update/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scrambledegg&#39;s blog</title>
+    <link>https://scrambledegg.github.io/index.xml</link>
+    <description>Recent content on scrambledegg&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Wed, 14 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://scrambledegg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MusicQ Firstアップデート</title>
+      <link>https://scrambledegg.github.io/blog/2016/12/14/musicq-first-update/</link>
+      <pubDate>Wed, 14 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2016/12/14/musicq-first-update/</guid>
+      <description>
+
 &lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
+
 &lt;p&gt;Mabinogiは無音設定なので久々に音を聞きながらプレイしているもいです。
 こんばんは。&lt;br /&gt;
 MusicQ Firstアップデートとやらが来たので、
 ギルメンのHさんとフリースタイルジャムで遊んできました。&lt;/p&gt;
+
 &lt;h1 id=&#34;フリースタイルジャム&#34;&gt;フリースタイルジャム&lt;/h1&gt;
+
 &lt;p&gt;
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/12/14/01.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;一人だと寂しい。。の図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/12/14/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;一人だと寂しい。。の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
 演奏中に他のプレイヤーが飛び入り参加して合奏ができるアクションらしい。&lt;br /&gt;
 演奏時に次の条件、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;演奏参加人数が2人以上&lt;/li&gt;
 &lt;li&gt;5コンボ達成&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;を満たすと、
 メロディーステップ (&lt;strong&gt;耐久減少速度減少バフ&lt;/strong&gt;)が&lt;strong&gt;1時間&lt;/strong&gt;つきます！&lt;br /&gt;
 が、なかなか5Comboが難しかった。。
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/12/14/03.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;Hさんとメロディーステップの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/12/14/03.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Hさんとメロディーステップの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 &lt;/p&gt;
+
 &lt;p&gt;効果中は歩くと五線譜のエフェクトがつく様子。&lt;/p&gt;
+
 &lt;p&gt;さらに、フリースタイルジャムプレイ中に一定確率で、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;サーバにつき1つのchのみ&lt;/li&gt;
 &lt;li&gt;エリン時間で1日持続&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;という条件で「コルプレの祝福」というのが起こるらしい。
 ちょうどデュエットしている間にテロップが出たので参加してきました！&lt;/p&gt;
+
 &lt;p&gt;
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/12/14/02.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;コルプレの祝福地域でフリースタイルジャムの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/12/14/02.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;コルプレの祝福地域でフリースタイルジャムの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
 コルプレの祝福が起きている地域だと、ト音記号とスポットライトの色が変わる様子。&lt;/p&gt;
+
 &lt;p&gt;ちなみにコルプレの祝福の効果地域では、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;演奏時の報酬(経験値?)が2倍&lt;/li&gt;
 &lt;li&gt;5コンボ達成時にコルプレのラッパ付与(1回のコルプレの祝福中に1個)&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;があります。&lt;br /&gt;
 Hさんいわく、コルプレのラッパを使うと&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;楽器演奏効果3増加&lt;/li&gt;
 &lt;li&gt;メロディーステップ効果時間が3時間に増加&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;するらしいです。&lt;/p&gt;
+
 &lt;h1 id=&#34;おわりに&#34;&gt;おわりに&lt;/h1&gt;
+
 &lt;p&gt;演奏とかしないからどうなんだろう、と思っていましたが、
 私も恩恵を受けられそうなアップデートでした！&lt;/p&gt;
+
 &lt;p&gt;ではでは、良きmabinogiの日々を～。&lt;/p&gt;
+
 &lt;h1 id=&#34;おまけ&#34;&gt;おまけ&lt;/h1&gt;
+
 &lt;p&gt;ネイル・イヴォナの評判上げに必要な300文字以上の1分楽譜を作りました！
 良かったらどうぞ…&lt;/p&gt;
+
 &lt;p&gt;メロディー&lt;br /&gt;
 &lt;input type=&#34;text&#34; id=&#34;raw-mml&#34; value=&#34;t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4&#34;&gt;
 &lt;button class=&#34;clipboard-btn&#34; data-clipboard-target=&#34;#raw-mml&#34;&gt;&lt;span class=&#34;fa fa-clipboard&#34;&gt;&lt;/span&gt;&lt;/button&gt;&lt;/p&gt;
+
 &lt;p&gt;クリップボードから読み込めるver&lt;br /&gt;
 &lt;input type=&#34;text&#34; id=&#34;readable-from-clipboard-mml&#34; value=&#34;MML@t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4;&#34;&gt;
 &lt;button class=&#34;clipboard-btn&#34; data-clipboard-target=&#34;#readable-from-clipboard-mml&#34;&gt;&lt;span class=&#34;fa fa-clipboard&#34;&gt;&lt;/span&gt;&lt;/button&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css&#34;&gt;
 &lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.16/clipboard.min.js&#34;&gt;&lt;/script&gt;
+
 &lt;style type=&#34;text/css&#34;&gt;
 .clipboard-btn {
-text-transform: none;
+  text-transform: none;
 }
 &lt;/style&gt;
 &lt;script&gt;
 const clipboard = new Clipboard(&#39;.clipboard-btn&#39;);
 clipboard.on(&#39;success&#39;, function(e) {
-const btn = e.trigger;
-btn.setAttribute(&#34;data-balloon&#34;, &#34;Copied&#34;)
-btn.setAttribute(&#34;data-balloon-pos&#34;, &#34;down&#34;)
-btn.setAttribute(&#34;data-balloon-visible&#34;, &#34;&#34;)
-setTimeout(function(){
-btn.removeAttribute(&#34;data-balloon&#34;)
-btn.removeAttribute(&#34;data-balloon-pos&#34;, &#34;down&#34;)
-btn.removeAttribute(&#34;data-balloon-visible&#34;)
-}, 500);
+    const btn = e.trigger;
+    btn.setAttribute(&#34;data-balloon&#34;, &#34;Copied&#34;)
+    btn.setAttribute(&#34;data-balloon-pos&#34;, &#34;down&#34;)
+    btn.setAttribute(&#34;data-balloon-visible&#34;, &#34;&#34;)
+    setTimeout(function(){
+        btn.removeAttribute(&#34;data-balloon&#34;)
+        btn.removeAttribute(&#34;data-balloon-pos&#34;, &#34;down&#34;)
+        btn.removeAttribute(&#34;data-balloon-visible&#34;)
+        }, 500);
 });
 &lt;/script&gt;
-&lt;/p&gt;</description></item><item><title>ファンタズムブレイカー</title><link>https://scrambledegg.github.io/blog/2016/11/28/phantasm-breaker/</link><pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/11/28/phantasm-breaker/</guid><description>&lt;p&gt;なんと…
+
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ファンタズムブレイカー</title>
+      <link>https://scrambledegg.github.io/blog/2016/11/28/phantasm-breaker/</link>
+      <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2016/11/28/phantasm-breaker/</guid>
+      <description>&lt;p&gt;なんと…
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/01.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;ずん&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ずん&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 &lt;/p&gt;
+
 &lt;p&gt;我らがマスターが…
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/02.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;ずんずん&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/02.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ずんずん&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 &lt;/p&gt;
+
 &lt;p&gt;夢幻のラビダンジョンの…
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/03.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;ずんずんずん&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/03.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ずんずんずん&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 &lt;/p&gt;
+
 &lt;p&gt;ソロクリアに成功しました！
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/04.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;ずんずんずんずん&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/04.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ずんずんずんずん&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 &lt;/p&gt;
+
 &lt;p&gt;おめでとうです！流石です！&lt;/p&gt;
+
 &lt;p&gt;ちなみに、クリアの感想は、
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/05.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;風邪は引かないように…!&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/11/28/05.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;風邪は引かないように…!&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
-だそうです！&lt;/p&gt;</description></item><item><title>ハロウィンプレイヤーイベント</title><link>https://scrambledegg.github.io/blog/2016/10/31/halloween-player-event/</link><pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/10/31/halloween-player-event/</guid><description>
+
+だそうです！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ハロウィンプレイヤーイベント</title>
+      <link>https://scrambledegg.github.io/blog/2016/10/31/halloween-player-event/</link>
+      <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2016/10/31/halloween-player-event/</guid>
+      <description>
+
 &lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
+
 &lt;p&gt;リアルで年々広まってる感のあるハロウィンに馴染めません。
 もいです。こんばんは。&lt;br /&gt;
 今日はいつもお世話になっている
 &lt;a href=&#34;http://aoinohana.blog100.fc2.com/blog-entry-84.html&#34;&gt;ギルドNさん&lt;/a&gt;
 主催のハロウィンイベントに参加してきました！&lt;/p&gt;
+
 &lt;p&gt;内容は、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;2PT分かれての難しいギルガシ討伐TA&lt;/li&gt;
 &lt;li&gt;イベント参加者のファッションコンテスト&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;の豪華2本立てでした。&lt;br /&gt;
 今日はそんなドキワクイベントにギルドで参加した
 お話をします。&lt;/p&gt;
+
 &lt;h1 id=&#34;ギルガシ討伐ta&#34;&gt;ギルガシ討伐TA&lt;/h1&gt;
+
 &lt;p&gt;TA開始直前には主催者様が各ブレイドキャラを
 かっこいい通り名とともに紹介してくれ、
 とっても盛り上がってました。
 我らがマスターにも素敵な通り名をいただきました。
 かっこいいマスターはTA勝利もモノにしてました。&lt;/p&gt;
+
 &lt;p&gt;(緊張しすぎてSS取る余裕がありませんでした。)&lt;/p&gt;
+
 &lt;h1 id=&#34;ファッションイベント&#34;&gt;ファッションイベント&lt;/h1&gt;
+
 &lt;p&gt;TA後は参加者全員の投票によるファッションコンテストがありました。
 イベント参加中はドレスコードが課されており、
 ハロウィン系衣装の着こなしで競います。&lt;/p&gt;
+
 &lt;p&gt;主催者様を始め、皆様素敵な衣装で参加していたにもかかわらず、
 うちのギルドマスターが優勝しました！&lt;br /&gt;
 優勝したマスターに感想を求めたところ、&lt;/p&gt;
+
 &lt;blockquote&gt;
 &lt;p&gt;優勝したときはすごく嬉しかった。&lt;br /&gt;
 でも、当然といえば当然かな。&lt;br /&gt;
 俺達はお菓子じゃ生きていけないからね。&lt;br /&gt;
 最後に選ばれるのは主菜だよ。白菜だけに。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;p&gt;みたいな回答を得たとか、得なかったとか&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+
 &lt;p&gt;(優勝シーンのSSを撮り損ねてしまったのですが、
 ギルメンさんが主催者様に相談してくださり、&lt;br /&gt;
 ご厚意により&lt;a href=&#34;http://aoinohana.blog100.fc2.com/blog-entry-85.html&#34;&gt;SSをまとめてくださいました&lt;/a&gt;。
 壁紙にします！ありがとうございます。)&lt;/p&gt;
+
 &lt;h1 id=&#34;終わりに&#34;&gt;終わりに&lt;/h1&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/10/31/01.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;イベント後みんなでパシャリ (サブマスは参加できなかった。。)&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/10/31/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;イベント後みんなでパシャリ (サブマスは参加できなかった。。)&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;野良ギルガシPTを開催してくださっているギルドNさんのにはいつも助かっています。&lt;br /&gt;
 以前あった、ギルガシ討伐PTの説明会もとてもありがたかったです。&lt;/p&gt;
+
 &lt;p&gt;本日のハロウィンイベントもとっても楽しかったです。
 本当にありがとうございました。&lt;br /&gt;
 次回もあればまた参加したいです。&lt;/p&gt;
+
 &lt;hr /&gt;
+
 &lt;h1 id=&#34;追記&#34;&gt;追記&lt;/h1&gt;
+
 &lt;p&gt;私 (ハロウィンカボチャローブ) が
 &lt;a href=&#34;http://blog-imgs-95.fc2.com/a/o/i/aoinohana/mabinogi_2016_10_30_001.jpg&#34;&gt;主催者様のブログのSS&lt;/a&gt;
 にいないぞ？というご指摘が有りました。
 マスターの足元を見てください。左足が見えるはずです。&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
+
 &lt;hr /&gt;
+
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;最初の一文以外すべて脚色です。
-&lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>夢幻のラビダンジョンに挑戦</title><link>https://scrambledegg.github.io/blog/2016/07/31/rabbie-phantasm/</link><pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/07/31/rabbie-phantasm/</guid><description>
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>夢幻のラビダンジョンに挑戦</title>
+      <link>https://scrambledegg.github.io/blog/2016/07/31/rabbie-phantasm/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2016/07/31/rabbie-phantasm/</guid>
+      <description>
+
 &lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
+
 &lt;p&gt;&lt;a href=&#34;https://scrambledegg.github.io/blog/2016/07/28/reflection-of-rabbie-phantasm/&#34;&gt;前回の記事&lt;/a&gt;では夢の始まりダンジョンでしたが、
 イベントで貰える通行証がもったいなかったので、無印の方にも挑戦してきました！&lt;/p&gt;
+
 &lt;p&gt;メンバーはギルメン3人(マスター・Kさん・私)、フレンドさん(Fさん)1人で挑みました。
 今回の挑戦では役割分担等はせず、
 経験者ギルメンさんのご助言によって下のような方針で挑戦しました。&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;PTメンバーは各々できるだけMap上の離れた位置に広がる&lt;/li&gt;
 &lt;li&gt;サキュバスクィーンへの攻撃はMap上で近い人が行う&lt;/li&gt;
 &lt;li&gt;PTメンバーが死んだらPT羽や遠隔羽ですぐに復活させる&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;今回はあまり死者もなく、9分での討伐でした…!
 (初めての夢の始まりは1時間48分かかったので進歩著しい。。)&lt;/p&gt;
+
 &lt;p&gt;今回はこの反省を書いてみたいと思います。&lt;/p&gt;
+
 &lt;h1 id=&#34;事前準備&#34;&gt;事前準備&lt;/h1&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/31/01.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;かき氷イベントバンザイの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/31/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;かき氷イベントバンザイの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;夢幻ダンジョン実装のせいか完ポの値上がりがひどいので、
 代わりにイベント産かき氷を山ほど積んで挑みました。
 さらに攻撃速度装備(オートマチックダウラ + 異国風足)
 したので、魂攻撃はダウラ通常攻撃で間に合うようになりました。&lt;/p&gt;
+
 &lt;h1 id=&#34;序盤-サキュバスクィーンの保護削り&#34;&gt;序盤(サキュバスクィーンの保護削り)&lt;/h1&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/31/02.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;マスターはジャイの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/31/02.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;マスターはジャイの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;入場時は&lt;a href=&#34;https://scrambledegg.github.io/blog/2016/07/28/reflection-of-rabbie-phantasm/&#34;&gt;前回の記事&lt;/a&gt;同様、
 ファントムさん対策かつ雑魚のタゲ対策として、ディバインリンクをすぐに張ります。
 変わった点は、
 最初のディバインリンク後、ペットがタゲを持っているうちに、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;サキュバスクィーンの保護を削りのために、人間が活性化ブリューナクでファイナルヒットした点&lt;/li&gt;
 &lt;li&gt;全滅を避けるために、(ファイナルヒット後)PTメンバー各自Mapの離れた位置に展開した点&lt;/li&gt;
 &lt;li&gt;目潰し役などの役割分担なしに、各自で目潰ししたりオブジェクトに隠れたりした点&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;離れているので、途中で死んで他のメンバーにタゲが行っても、
 敵キャラの移動に時間がかかるので復活に余裕があります。&lt;br /&gt;
 また、攻撃されてて目潰しが間に合わなかったときの罪悪感がありません！&lt;br /&gt;
 目潰し役だったのに死んでしまったときの罪悪感もありません！！&lt;/p&gt;
+
 &lt;h1 id=&#34;夢幻ダンジョンクリア&#34;&gt;夢幻ダンジョンクリア&lt;/h1&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/31/03.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;無事クリアの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/31/03.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;無事クリアの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;相変わらず死なずに、とは行かなかったものの無事クリアできました！
 一緒に行ってくれたPTの皆様有り難うございました！
 また連れてってください！&lt;/p&gt;
-&lt;p&gt;ではでは、良きMabinogiの日々を～。&lt;/p&gt;</description></item><item><title>夢幻のラビダンジョン-夢の始まり-に挑戦</title><link>https://scrambledegg.github.io/blog/2016/07/28/reflection-of-rabbie-phantasm/</link><pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/07/28/reflection-of-rabbie-phantasm/</guid><description>
+
+&lt;p&gt;ではでは、良きMabinogiの日々を～。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>夢幻のラビダンジョン-夢の始まり-に挑戦</title>
+      <link>https://scrambledegg.github.io/blog/2016/07/28/reflection-of-rabbie-phantasm/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2016/07/28/reflection-of-rabbie-phantasm/</guid>
+      <description>
+
 &lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
+
 &lt;p&gt;長らくネタもなかったので放置してたのですが、新ダンジョンがきたので
 &amp;ldquo;夢幻のラビダンジョン-夢の始まり-&amp;ldquo;に
 ギルメン4人(マスター・私・Kさん・Sさん)で挑戦してきました！&lt;br /&gt;
 役割分担は経験者ギルメンさんの采配により、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;演奏・足止め(サンドバースト)班1人&lt;/li&gt;
 &lt;li&gt;タゲ取り・足止め(サンドバースト)班1人&lt;/li&gt;
 &lt;li&gt;サキュバスクイーン攻撃班2人&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;で挑戦しました。
 数々の屍を乗り越え、1時間48分での討伐でした…!&lt;/p&gt;
+
 &lt;p&gt;今回はこの反省を書いてみたいと思います。&lt;/p&gt;
+
 &lt;h1 id=&#34;序盤-ファントムの咆哮&#34;&gt;序盤(ファントムの咆哮)&lt;/h1&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/28/01.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;咆えるファントムさんの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/28/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;咆えるファントムさんの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;事前情報ではディバインリンクを使ってタゲを取らないように戦うらしく、
 ペット準備して入場しました。&lt;br /&gt;
 しかし2度目の咆哮であえなくペット帰還となりました。&lt;/p&gt;
+
 &lt;p&gt;戦闘中は気づかなかったのですが、
 咆哮されてもファントムを倒した後
 ペット召喚不可のデバフが消えたタイミングが合って、
 再召喚後もしばらくデバフがかかっていませんでした。
 失敗しても再度ディバインリンクできる余地はあったようです。
 この辺りもちょっと調べておこう…。&lt;/p&gt;
+
 &lt;h1 id=&#34;ギルガシの魂攻撃的なやつ&#34;&gt;ギルガシの魂攻撃的なやつ&lt;/h1&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/28/02.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;吸われる魂の図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/28/02.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;吸われる魂の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;サキュバスクイーンの体力が90%切ったあたりから始まり(たぶん)、
 すごく短い指差し的？なモーションの後、
 差した方向にいるキャラクターの場所に瞬間移動します。
 瞬間移動の直後あたりから、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;狙われたキャラクター以外動作不能&lt;br /&gt;
 ※例外として、魂攻撃中に復活したキャラクターは動けます&lt;/li&gt;
@@ -301,54 +534,106 @@ btn.removeAttribute(&#34;data-balloon-visible&#34;)
 サキュバスクイーンを攻撃しようとすると、
 集まっているベビーサキュバスからの猛攻を受けます。&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;が起こり、
 大体&lt;strong&gt;13秒間&lt;/strong&gt;に&lt;strong&gt;30回&lt;/strong&gt;の攻撃を当てることで魂攻撃を解除させることができます。
 この魂攻撃の解除に失敗すると、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;PT全体攻撃&lt;br /&gt;
 ※ 1度だけPT全体に攻撃が当たらないことがあったので、
-常に全体ではなくて範囲とか条件あるとかかもしれないです。&lt;/li&gt;
+ 常に全体ではなくて範囲とか条件あるとかかもしれないです。&lt;/li&gt;
 &lt;li&gt;攻撃力低下デバフ&lt;/li&gt;
 &lt;li&gt;サキュバスクイーンの体力回復&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;といろいろ面倒になります。&lt;/p&gt;
+
 &lt;p&gt;今回の挑戦ではなかなか魂攻撃の解除に成功しなかったので、途中から回復対策のために負傷でちびちび削る方針に変更となりました。
 ただ、デバフはどうしようもないので次回は対策できるようになります頑張ります。&lt;/p&gt;
+
 &lt;h1 id=&#34;レッドドラゴンのメテオストライク的なやつ&#34;&gt;レッドドラゴンのメテオストライク的なやつ&lt;/h1&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/28/03.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;メテオストライク準備中の図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/28/03.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;メテオストライク準備中の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;メテオストライク的な奴は87%から使ってきたので魂攻撃と同じくらいのタイミングで始まってそう。
 飛び上がってから最初のメテオが降ってくるまでに10秒くらい余裕が有ります。&lt;/p&gt;
+
 &lt;h1 id=&#34;夢の始まりクリア&#34;&gt;夢の始まりクリア&lt;/h1&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/28/04.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;他力本願の図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/07/28/04.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;他力本願の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;たくさん死にましたがクリアはできました。
 一緒に行ってくれたPTの皆様、遠隔をしてくれたギルメンの皆様有り難うございました！
 また連れてってください！&lt;/p&gt;
-&lt;p&gt;ではでは、良きMabinogiの日々を～。&lt;/p&gt;</description></item><item><title>お役立ち?</title><link>https://scrambledegg.github.io/tool/</link><pubDate>Sat, 14 May 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/tool/</guid><description>&lt;p&gt;お役立つかわからないものを適当に作っておいてます。&lt;/p&gt;
+
+&lt;p&gt;ではでは、良きMabinogiの日々を～。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>お役立ち?</title>
+      <link>https://scrambledegg.github.io/tool/</link>
+      <pubDate>Sat, 14 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/tool/</guid>
+      <description>&lt;p&gt;お役立つかわからないものを適当に作っておいてます。&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://scrambledegg.github.io/mabi-fav-rating2&#34;&gt;私の騎士団好感度ローテーションメモ&lt;/a&gt;&lt;br /&gt;
 私の騎士団の好感度のテーブルをローテションしながら記録できるやーつです。
 ただ、wikiによると98とか99とかもあったりするらしいけれど97までしかないです。&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>特別改造の成功率</title><link>https://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</link><pubDate>Sun, 08 May 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</guid><description>
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>特別改造の成功率</title>
+      <link>https://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</link>
+      <pubDate>Sun, 08 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/</guid>
+      <description>
+
 &lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
+
 &lt;p&gt;久々に特別改造しました、もいです、こんばんは。&lt;/p&gt;
+
 &lt;p&gt;なかなか5段階にならないので、果たしてどのくらい確率が低いのか
 ちょっぴり計算してみました。&lt;br /&gt;
 小難しい話はよくわかんないですが、
 一次元非対称ランダムウォーク(吸収壁あり)とか言うやつっぽいです。&lt;br /&gt;
 いや、違うかもしれないです。よくわかんないです。&lt;/p&gt;
+
 &lt;h1 id=&#34;計算する&#34;&gt;計算する&lt;/h1&gt;
+
 &lt;p&gt;用意する石の個数と5段階改造の成功率を求めます。
 まず、改造の成功率をまとめます。&lt;/p&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -356,140 +641,214 @@ btn.removeAttribute(&#34;data-balloon-visible&#34;)
 &lt;th&gt;成功率&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;0 -&amp;gt; 1&lt;/td&gt;
 &lt;td&gt;100%&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;1 -&amp;gt; 2&lt;/td&gt;
 &lt;td&gt;50%&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;2 -&amp;gt; 3&lt;/td&gt;
 &lt;td&gt;50%&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;3 -&amp;gt; 4&lt;/td&gt;
 &lt;td&gt;45%&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;4 -&amp;gt; 5&lt;/td&gt;
 &lt;td&gt;45%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;p&gt;この表を参考に、遷移確率行列とかいう $i$ から $j$ への遷移確率を($i$, $j$)成分に持つような行列 $P$ を書きます。
+
 $$
 P = \left(
-\begin{array}{cccccc}
-0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\
-0.5 &amp; 0 &amp; 0.5 &amp; 0 &amp; 0 &amp; 0 \\
-0 &amp; 0.5 &amp; 0 &amp; 0.5 &amp; 0 &amp; 0 \\
-0 &amp; 0 &amp; 0.55 &amp; 0 &amp; 0.45 &amp; 0 \\
-0 &amp; 0 &amp; 0 &amp; 0.55 &amp; 0 &amp; 0.45 \\
-0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\
-\end{array}
-\right)\\
+    \begin{array}{cccccc}
+          0 &amp;   1 &amp;    0 &amp;    0 &amp;    0 &amp;    0 \\
+        0.5 &amp;   0 &amp;  0.5 &amp;    0 &amp;    0 &amp;    0 \\
+          0 &amp; 0.5 &amp;    0 &amp;  0.5 &amp;    0 &amp;    0 \\
+          0 &amp;   0 &amp; 0.55 &amp;    0 &amp; 0.45 &amp;    0 \\
+          0 &amp;   0 &amp;    0 &amp; 0.55 &amp;    0 &amp; 0.45 \\
+          0 &amp;   0 &amp;    0 &amp;    0 &amp;    0 &amp;    1 \\
+    \end{array}
+    \right)\\
 $$
+
 &lt;/p&gt;
+
 &lt;p&gt;今回は5段階改造の成功率なので、0段階改造から始めて5段階改造に遷移する確率、
 すなわち(1, 6)成分の確率が求めたい成功率になると思います。
 この$P$を$n$乗してあげれば$n$個石を使った時の成功率になります。&lt;/p&gt;
+
 &lt;p&gt;(6, 6)成分の確率について、本来の特別改造だと5段階から5段階への遷移はありませんが、
 ここを1にしてあげることで、$P^n$の$6$列目の確率は$n$個石を使うまでに5段階になる累計の確率になります。&lt;/p&gt;
+
 &lt;p&gt;さて、この$P^n$の指数$n$を増やしながら、
 石をいくつ使うとどのくらいの確率で5段階になるのか計算した結果、次のグラフのようになりました。
 &lt;div id=&#34;chart&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
 &lt;p&gt;(6段階する勇気ないので5段階までですごめんなさい。)&lt;/p&gt;
+
 &lt;p&gt;23個使って初めて50%超える感じです。&lt;br /&gt;
 60個突っ込んでも90%行きません。&lt;br /&gt;
 がくぶる！&lt;/p&gt;
+
 &lt;p&gt;計算が違うよーとかあれば下のコメントにください。&lt;br /&gt;
 ではでは、良きMabinogiの日々を～。&lt;/p&gt;
+
 &lt;hr /&gt;
+
 &lt;p&gt;以下確率計算に使ったソース(間違ってるかも)&lt;/p&gt;
+
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#!/usr/bin/env python3
 import numpy as np
+
 # 遷移確率行列
 P = np.array([
-[ 0, 1, 0, 0, 0, 0],
-[0.5, 0, 0.5, 0, 0, 0],
-[ 0, 0.5, 0, 0.5, 0, 0],
-[ 0, 0, 0.55, 0, 0.45, 0],
-[ 0, 0, 0, 0.55, 0, 0.45],
-[ 0, 0, 0, 0, 0, 1],
-], dtype=np.float64)
+    [  0,   1,    0,    0,    0,    0],
+    [0.5,   0,  0.5,    0,    0,    0],
+    [  0, 0.5,    0,  0.5,    0,    0],
+    [  0,   0, 0.55,    0, 0.45,    0],
+    [  0,   0,    0, 0.55,    0, 0.45],
+    [  0,   0,    0,    0,    0,    1],
+],  dtype=np.float64)
 # 初期は0段階
 INITIAL_PROB = np.array([1, 0, 0, 0, 0, 0])
 # 石の数
 NUM = 150
+
 powerP = INITIAL_PROB
 for i in range(NUM):
-print(powerP @ np.array([0,0,0,0,0,1]).T * 100)
-powerP = powerP @ P
+    print(powerP @ np.array([0,0,0,0,0,1]).T * 100)
+    powerP = powerP @ P
 &lt;/code&gt;&lt;/pre&gt;
+
 &lt;p&gt;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.css&#34;&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://scrambledegg.github.io/css/chart.css&#34;&gt;
 &lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://scrambledegg.github.io/js/2016/05/08/script.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/x-mathjax-config&#34;&gt;
-MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;]] } });
+
+  MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;]] } });
+
+
 &lt;/script&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&#34;&gt;&lt;/script&gt;&lt;/p&gt;</description></item><item><title>試練の洞窟(11周年ver)</title><link>https://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</link><pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</guid><description>
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>試練の洞窟(11周年ver)</title>
+      <link>https://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</link>
+      <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/</guid>
+      <description>
+
 &lt;h2 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h2&gt;
+
 &lt;p&gt;こんにちは、もいです。&lt;br /&gt;
 ネタでページ作ったはいいけれど何も書かないのは寂しいので、
 今回は11周年イベントの試練の洞窟(11周年ver)の攻略を書いてみたいと思います。&lt;/p&gt;
+
 &lt;p&gt;攻略方法はおおまかに書くと、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;グリムリーパーさんまではFH&lt;/li&gt;
 &lt;li&gt;マスターリッチさんはヒュドラとフレンジー&lt;/li&gt;
 &lt;li&gt;グラスギブネンさんはマグ・螺旋斬・スマ&lt;/li&gt;
 &lt;li&gt;ドゥロさんはフレンジー&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;な感じです。&lt;/p&gt;
+
 &lt;p&gt;キャラスペック的にタゲ上限だと消える前に倒せず、
 半神・綿飴もったいない勢なので使えず…なので、
 そこそこ時間がかかってます(11分ちょい程度)が、割と安定してます。&lt;/p&gt;
+
 &lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
+
 &lt;h3 id=&#34;クモさんからグリムリーパーさんまで&#34;&gt;クモさんからグリムリーパーさんまで&lt;/h3&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/01.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;FHで頑張るの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;FHで頑張るの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;ひたすらFHで削るのみな感じです。&lt;br /&gt;
 グリムリーパーさん対策でFHする前に序曲代わりに行進曲弾いとくと安心でした。
 (ギルマスみたいに足速くないので避けるのしんどい…)&lt;/p&gt;
+
 &lt;h3 id=&#34;グリムリーパーさん&#34;&gt;グリムリーパーさん&lt;/h3&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/02.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;ぎりぎりまで削るの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/02.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ぎりぎりまで削るの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;グリムリーパーさんはぎりぎりまで削っておいて、&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;ワープしてなかったら中央ヒュドラ&lt;/li&gt;
 &lt;li&gt;ワープしてたら中央にヒュドラ置いて隅から弓 or 手裏剣&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;で処理してます。&lt;br /&gt;
 ヒュドラはマスターリッチさんを削るために使います。&lt;/p&gt;
+
 &lt;h3 id=&#34;マスターリッチさん&#34;&gt;マスターリッチさん&lt;/h3&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/03.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;ヒュドラさん頑張るの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/03.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ヒュドラさん頑張るの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;グリムリーパーさん倒す直前に置いたヒュドラで途中まで削ります。
 か弱いのでフレンジーだけで全部削るのは時間がかかり、
 途中でスキル使ってくるのが怖いのでこうしてます。
 (ヒュドラ汚いとか言わないで…)&lt;/p&gt;
+
 &lt;p&gt;途中まで削れたら、&lt;/p&gt;
+
 &lt;ol&gt;
 &lt;li&gt;行進曲で移動速度を上げる&lt;/li&gt;
 &lt;li&gt;シールドオブトラストでたまに来るガストの即タゲアタックに備える&lt;/li&gt;
@@ -499,51 +858,89 @@ MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#34;\\
 &lt;li&gt;マスターリッチさんを倒したあとにガストが起きても殴られないよう壁を置く&lt;/li&gt;
 &lt;li&gt;フレンジーで残りを削る&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;でマスターリッチさんを倒してます。
 たまに壁立ててる間にマスターリッチさんからタゲもらうことが有りますが、
 危機脱出すればまた人形にタゲが行きます。
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/04.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;人形タゲ中に眠らせるの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/04.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;人形タゲ中に眠らせるの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/05.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;フレンジーで削るの図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/05.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;フレンジーで削るの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
 &lt;/p&gt;
+
 &lt;h3 id=&#34;グラスギブネンさん&#34;&gt;グラスギブネンさん&lt;/h3&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/06.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;光線待機無敵の図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/06.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;光線待機無敵の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;ここは特別攻略らしいことやってないです。&lt;br /&gt;
 壁越しにマグ・螺旋斬 or 光ったらディフェンスなのでその間にスマで殴るとかやってます。
 ここで一番時間かかってますが、フレンジーはドゥロさんに残しておきたいのと、
 FHとかでゴリ押すがそこそこしんどいので地道にやってます。&lt;/p&gt;
+
 &lt;p&gt;あと、光らずににスキル音がしたら口から光線吐き出す以外はミルなので(だったはず)、
 避けとかないと冒頭の画像みたいになります。。&lt;/p&gt;
+
 &lt;h3 id=&#34;ドゥロさん&#34;&gt;ドゥロさん&lt;/h3&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/07.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;壁前で待機の図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/07.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;壁前で待機の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;来ましたドゥロさん！&lt;br /&gt;
 非ダウン &amp;amp; ワープ持ち &amp;amp; 高火力のキャラで、追いつかれないように戦わないと
 か弱いのでしんどいです。
 ですが、ワープ持ちは壁とか(今回のステージだと溝か？)を背にすればワープAI中は攻撃し放題なので、
 そこそこやりやすいと思います。&lt;/p&gt;
+
 &lt;p&gt;彼は壁越しにフレンジーで倒しています。
 壁はすぐ壊れるので役立たずなのでは？と、そこそこの人に言われましたが、
 壁は壊れても消えるまで壁なので、むしろ消えるまでの数秒無敵の壁があると思えば結構足止め効果が高いです。&lt;/p&gt;
+
 &lt;p&gt;倒し方ですが、ドゥロさんが登場したら、&lt;/p&gt;
+
 &lt;ol&gt;
 &lt;li&gt;ドゥロさんにタゲられないように画面の端っこで壁を4つ立てる&lt;/li&gt;
 &lt;li&gt;サンドバースト用意してドゥロさんのタゲを取る&lt;/li&gt;
@@ -555,31 +952,66 @@ FHとかでゴリ押すがそこそこしんどいので地道にやってます
 微妙そうですが、壊されるまでの時間がそこそこ変わります。&lt;/li&gt;
 &lt;li&gt;フレンジーで削り切る&lt;/li&gt;
 &lt;/ol&gt;
+
 &lt;p&gt;フレンジーで削り切る前に壁が全部壊されたら、
 サンドバーストで目潰し &amp;amp; ヒュドラ(汚いとか言わないで…)でいけそうです。&lt;/p&gt;
+
 &lt;p&gt;注意点は&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;フレンジーの届く位置に足止めする&lt;/li&gt;
 &lt;li&gt;自分の後ろにワープできる隙間を作らない&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;です。&lt;/p&gt;
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/08.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;ギリギリ、でも討伐成功の図&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2016/04/24/08.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ギリギリ、でも討伐成功の図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;というわけで、まじめに書いた初めての記事でした！&lt;br /&gt;
 他にもこうしたら楽だよとか、こうしたらいいんじゃないとかあったら下のコメントにください。&lt;/p&gt;
-&lt;p&gt;それでは、良いMabinogiの日々を～。&lt;/p&gt;</description></item><item><title>About scrambledegg</title><link>https://scrambledegg.github.io/about/</link><pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/about/</guid><description>
+
+&lt;p&gt;それでは、良いMabinogiの日々を～。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About scrambledegg</title>
+      <link>https://scrambledegg.github.io/about/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/about/</guid>
+      <description>
+
+
 &lt;figure &gt;
-&lt;img src=&#34;https://scrambledegg.github.io/img/about/guild-stone.jpg&#34; /&gt;
-&lt;figcaption&gt;
-&lt;h4&gt;ギルドストーン&lt;/h4&gt;
-&lt;/figcaption&gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/about/guild-stone.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;ギルドストーン&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
 &lt;/figure&gt;
+
+
 &lt;p&gt;scrambledeggはルエリサーバ6chで活動しているギルドです。&lt;/p&gt;
+
 &lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -587,34 +1019,42 @@ FHとかでゴリ押すがそこそこしんどいので地道にやってます
 &lt;th&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
+
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;メンバー&lt;/td&gt;
 &lt;td&gt;現在40名今はアクティブメンバーは8人程度になっています。&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;累積&lt;/td&gt;
 &lt;td&gt;1～19kくらいです。&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;活動ch&lt;/td&gt;
 &lt;td&gt;6ch他のchでも構いません&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;活動時間&lt;/td&gt;
 &lt;td&gt;大体19時あたりから24時あたりです。社会人の方の比率が多めです。&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;たまり場&lt;/td&gt;
 &lt;td&gt;ダンバ広場枠の東&lt;/td&gt;
 &lt;/tr&gt;
+
 &lt;tr&gt;
 &lt;td&gt;活動内容&lt;/td&gt;
 &lt;td&gt;狩りやら生産やらなんでも基本的に戦闘好きな人達です。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
 &lt;h2 id=&#34;期待すること&#34;&gt;期待すること&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;メインキャラ&lt;/li&gt;
 &lt;li&gt;できれば週３回以上inできる方&lt;/li&gt;
@@ -624,19 +1064,40 @@ FHとかでゴリ押すがそこそこしんどいので地道にやってます
 &lt;li&gt;元々身内ギルドでしたのでくだけた喋り方をする人、マイペースな人がいますが気にしない方。&lt;br /&gt;
 あまり敬語で喋ったりしないギルドです。(ただ、慣れるまではみんな敬語です。）&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;マスターのジャイから…&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;ジャイをバカにしない方←重要&lt;/li&gt;
 &lt;li&gt;代理マスターをオッサン呼ばわりしない方←重要&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;h2 id=&#34;加入条件&#34;&gt;加入条件&lt;/h2&gt;
+
 &lt;ul&gt;
 &lt;li&gt;一般常識がある&lt;/li&gt;
 &lt;li&gt;ネクソンの規約が守れる&lt;/li&gt;
 &lt;li&gt;他者に迷惑行為をしない&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;p&gt;という感じになっております。&lt;br /&gt;
 興味をもってくれた方はぜひギルド石を叩いてください！&lt;br /&gt;
-体験したいという方もOKです！脱退自由ですが、一言メモ、又はメッセをもらえるとありがたいです。&lt;/p&gt;</description></item><item><title>ブログ作ってみました</title><link>https://scrambledegg.github.io/blog/2016/04/hello-blog/</link><pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate><guid>https://scrambledegg.github.io/blog/2016/04/hello-blog/</guid><description>&lt;p&gt;ここはルエリ6chで活躍する赤色大好きジャイアントが牽引するギルド「scrambledegg」のネタページです。&lt;/p&gt;
+体験したいという方もOKです！脱退自由ですが、一言メモ、又はメッセをもらえるとありがたいです。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ブログ作ってみました</title>
+      <link>https://scrambledegg.github.io/blog/2016/04/hello-blog/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2016/04/hello-blog/</guid>
+      <description>&lt;p&gt;ここはルエリ6chで活躍する赤色大好きジャイアントが牽引するギルド「scrambledegg」のネタページです。&lt;/p&gt;
+
 &lt;p&gt;ちなみに上の画像はにゃんこが大好きな某ギルメンが作ったものを、ご好意で使わせてもらいました！
-ありがとうございます！&lt;/p&gt;</description></item></channel></rss>
+ありがとうございます！&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
