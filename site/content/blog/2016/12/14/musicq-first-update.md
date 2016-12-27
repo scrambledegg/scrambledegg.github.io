@@ -7,7 +7,7 @@ featured = "feature.jpg"
 featuredalt = ""
 featuredpath = "/img/2016/12/14"
 linktitle = ""
-title = "MusicQ firstアップデート"
+title = "MusicQ Firstアップデート"
 type = "post"
 
 +++
@@ -15,8 +15,8 @@ type = "post"
 # いんとろ
 Mabinogiは無音設定なので久々に音を聞きながらプレイしているもいです。
 こんばんは。  
-MusicQ firstアップデートとやらが来たので、
-ギルメンのHさんとフリースタイルジャムで遊んできました！
+MusicQ Firstアップデートとやらが来たので、
+ギルメンのHさんとフリースタイルジャムで遊んできました。
 
 # フリースタイルジャム
 {{< figure src="/img/2016/12/14/01.jpg" title="一人だと寂しい。。の図" >}}
@@ -77,7 +77,6 @@ Hさんいわく、コルプレのラッパを使うと
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.16/clipboard.min.js"></script>
-
 {{<raw>}}
 <style type="text/css">
 .clipboard-btn {
