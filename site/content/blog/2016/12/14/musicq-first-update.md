@@ -67,6 +67,35 @@ Hさんいわく、コルプレのラッパを使うと
 ネイル・イヴォナの評判上げに必要な300文字以上の1分楽譜を作りました！
 良かったらどうぞ…
 
-```txt
-t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4
-```
+メロディー
+<input type="text" id="raw-mml" value="t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4">
+<button class="clipboard-btn" data-clipboard-target="#raw-mml"><span class="fa fa-clipboard"></span></button>
+
+クリップボードから読み込めるver
+<input type="text" id="readable-from-clipboard-mml" value="MML@t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4;">
+<button class="clipboard-btn" data-clipboard-target="#readable-from-clipboard-mml"><span class="fa fa-clipboard"></span></button>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.16/clipboard.min.js"></script>
+
+{{<raw>}}
+<style type="text/css">
+.clipboard-btn {
+  text-transform: none;
+}
+</style>
+<script>
+const clipboard = new Clipboard('.clipboard-btn');
+clipboard.on('success', function(e) {
+    const btn = e.trigger;
+    btn.setAttribute("data-balloon", "Copied")
+    btn.setAttribute("data-balloon-pos", "down")
+    btn.setAttribute("data-balloon-visible", "")
+    setTimeout(function(){
+        btn.removeAttribute("data-balloon")
+        btn.removeAttribute("data-balloon-pos", "down")
+        btn.removeAttribute("data-balloon-visible")
+        }, 500);
+});
+</script>
+{{</raw>}}
