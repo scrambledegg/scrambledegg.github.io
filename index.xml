@@ -80,7 +80,7 @@ text-transform: none;
 const clipboard = new Clipboard(&#39;.clipboard-btn&#39;);
 clipboard.on(&#39;success&#39;, function(e) {
 const btn = e.trigger;
-btn.setAttribute(&#34;data-balloon&#34;, &#34;copied&#34;)
+btn.setAttribute(&#34;data-balloon&#34;, &#34;Copied&#34;)
 btn.setAttribute(&#34;data-balloon-pos&#34;, &#34;down&#34;)
 btn.setAttribute(&#34;data-balloon-visible&#34;, &#34;&#34;)
 setTimeout(function(){
