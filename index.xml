@@ -6,8 +6,206 @@
     <description>Recent content on scrambledegg&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 14 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://scrambledegg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>シードフィナハにいってみました</title>
+      <link>https://scrambledegg.github.io/blog/2017/05/20/sid-panaha/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2017/05/20/sid-panaha/</guid>
+      <description>
+
+&lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
+
+&lt;p&gt;実装されてからなかなかギルメンさんとタイミングが合わず、&lt;br /&gt;
+悲しみを（の？）ソロでプレイしていたもいですこんばんは。&lt;br /&gt;
+寂しさを紛らわすために記事をしたためてみます。&lt;/p&gt;
+
+&lt;h1 id=&#34;ダンジョンの特徴&#34;&gt;ダンジョンの特徴&lt;/h1&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2017/05/20/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;道中のキューブの場所&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;シードフィナハは道中に有るキューブを叩きながら上へ上へと進み、&lt;br /&gt;
+中ボスのワイバーンと最後の悲嘆の歌を倒すとクリアです。&lt;/p&gt;
+
+&lt;p&gt;基本的に横一列についてはどれを叩いてもよく、&lt;br /&gt;
+キューブは横一列ごとに出現します。
+3回目のキューブから攻略方法が2通りに分岐します（後述）。&lt;/p&gt;
+
+&lt;h1 id=&#34;道中&#34;&gt;道中&lt;/h1&gt;
+
+&lt;p&gt;フィールドのキューブには&lt;strong&gt;次の敵が湧いているキューブ&lt;/strong&gt;と&lt;strong&gt;敵が湧いていないキューブ&lt;/strong&gt;の二通りが有ります。&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2017/05/20/02.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;敵が湧いていないキューブの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2017/05/20/03.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;敵が湧いているキューブの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;敵が湧いているキューブは、
+&lt;strong&gt;3回目のキューブ出現時に3つ&lt;/strong&gt;と、（もしも3回目のキューブを敵が湧いているキューブで攻略したなら）
+&lt;strong&gt;中ボス直後に1つ&lt;/strong&gt;存在します。&lt;/p&gt;
+
+&lt;p&gt;両者キューブの違いは次のとおりです。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;敵が湧いていないキューブ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;叩くと他のキューブが消える&lt;/li&gt;
+&lt;li&gt;叩くと敵が湧き、次の2通りの攻略方法がある
+
+&lt;ul&gt;
+&lt;li&gt;円の中に敵を放り込むもの&lt;/li&gt;
+&lt;li&gt;複数敵を討伐するもの&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;敵が湧いているキューブ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;敵のデバフを受けずに叩ければ攻略扱い&lt;/li&gt;
+&lt;li&gt;敵は一定数倒すと再び湧く&lt;/li&gt;
+&lt;li&gt;3回目のキューブ出現時には3つ、中ボス後のキューブでは1つ叩く必要がある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;敵が&lt;strong&gt;湧いていない&lt;/strong&gt;キューブを叩くと
+敵が&lt;strong&gt;湧いている&lt;/strong&gt;キューブも消えてしまうので、
+敵が&lt;strong&gt;湧いてる&lt;/strong&gt;キューブで攻略したい場合には注意が必要です。&lt;/p&gt;
+
+&lt;p&gt;敵が湧いているキューブで攻略する利点は、次があります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PTメンバーが多い場合拠点で攻略できる&lt;/li&gt;
+&lt;li&gt;あまり敵を倒さなくていいので武器の耐久が減らない&lt;/li&gt;
+&lt;li&gt;円へ狙いを定めなくていいし、混沌の形象に対して覚醒の形象を釣らなくていい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ただ、最初の一つはソロでやったので悲しみしかありませんでした。&lt;/p&gt;
+
+&lt;h1 id=&#34;中ボス&#34;&gt;中ボス&lt;/h1&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2017/05/20/04.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;恐怖の形象さんの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;中ボスは不安の形象とかいう肺魚さんと、恐怖の形象のワイバーンさんを倒します。
+ダンジョンの深さ？（好奇心・恐怖・悲しみ）によって引数と関わるらしいです。&lt;/p&gt;
+
+&lt;p&gt;不安の形象さんには踊り狂いながらワイバーン出すと楽そうです。
+恐怖の形象さんは…FB売ったりしながらちょっと大変でした…&lt;/p&gt;
+
+&lt;h1 id=&#34;悲嘆の形象&#34;&gt;悲嘆の形象&lt;/h1&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2017/05/20/05.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;悲嘆の形象さんの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;最後に悲嘆の形象さん倒すとクリアです！
+こっちは恐怖の形象さんよりも楽な気がする…&lt;br /&gt;
+ムービーみてると何故か攻撃受けたりするので油断なりません！&lt;/p&gt;
+
+&lt;p&gt;攻撃は足が遅くなったり、保護が減ったりするので
+できるだけ受けないようにしたほうが良さげです。
+（足遅くなるの受けると次も割りと受ける。。。）&lt;/p&gt;
+
+&lt;h1 id=&#34;おまけ&#34;&gt;おまけ&lt;/h1&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2017/05/20/06.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;不浄な力に侵された図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;上の方にあった、敵が湧いている方のキューブ周辺の敵は、
+触れるとデバフがかかります。
+この状態では上の画像のようなメッセージが出てキューブが叩けません。
+wikiによるデバフが切れるまでに40秒くらいかかるみたいなので、
+触れないように気をつけたほうが良さそうです。&lt;/p&gt;
+
+&lt;p&gt;また、敵は倒しても倒しても湧いてくるようなので、
+キューブ周辺の敵（タゲをもらってなくても触れればデバフなので）と、
+キューブへの経路にて気が出ない状態にできればそれ以上倒す必要はないです。&lt;/p&gt;
+
+&lt;p&gt;キューブ中心に2回くらいFBL打つとちょうどよく、
+あとはパートナーの箒で移動して叩く、としていました。
+弓のほうが楽だったのかも、と今更ながら思います。&lt;/p&gt;
+
+&lt;p&gt;シードフィナハで使えない、次のスキル:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ハイド&lt;/li&gt;
+&lt;li&gt;闇討ち・旋&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;はタゲ切りがだめなのかなーと思ったのですが、危機脱出は可能なので、
+多分上の敵が湧いていないキューブ攻略を面白くするた目なのかなと思いました。&lt;/p&gt;
+
+&lt;p&gt;パートナーの乗り物に乗れる人は大丈夫そうだけれど……。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MusicQ Firstアップデート</title>
