@@ -1,10 +1,12 @@
 #intro header h2 {
     font-size: 1.8em;
 }
-.footnote-return {
+
+.footnote-return > sup {
   margin-top:-100px;
   padding-top:100px;
 }
+
 .footnote-ref{
   margin-top:-100px;
   padding-top:100px;
