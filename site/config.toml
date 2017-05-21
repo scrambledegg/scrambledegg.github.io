@@ -33,7 +33,7 @@ googleAnalytics = "UA-66624669-5"
     # can load multiple files if necessary. You can also load the standard theme
     # files by adding the value, "default".
     customCSS            = ["/css/main.min.css", "/css/custom.css"]
-    customJS             = ["/js/main.min.js"]
+    customJS             = ["/js/main.min.js", "/js/custom.js"]
 
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use

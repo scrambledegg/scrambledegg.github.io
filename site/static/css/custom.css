@@ -2,6 +2,11 @@
     font-size: 1.8em;
 }
 
+.footnote-ref{
+  margin-top:-100px;
+  padding-top:100px;
+}
+
 
 /* Override font-family */
 
