@@ -6,8 +6,159 @@
     <description>Recent content in Blog-rsses on scrambledegg&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 20 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Aug 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://scrambledegg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ぐるぐるビンゴカード3枚達成の確率</title>
+      <link>https://scrambledegg.github.io/blog/2017/08/27/probability-of-guruguru-bingo/</link>
+      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2017/08/27/probability-of-guruguru-bingo/</guid>
+      <description>
+
+&lt;h1 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h1&gt;
+
+&lt;p&gt;「ぐるぐるビンゴ」イベント始まって
+ちょろちょろしかINしてなくてコインが全然ありません。&lt;br /&gt;
+もいです、こんばんは。&lt;/p&gt;
+
+&lt;p&gt;なかなかカードが埋まらないので、
+&lt;a href=&#34;https://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/&#34;&gt;改造石の個数と成功率を求めた記事&lt;/a&gt;
+を少しいじって、何枚コインを使うと何マス位埋まるのかの確率を求めてみました。&lt;/p&gt;
+
+&lt;h1 id=&#34;計算する&#34;&gt;計算する&lt;/h1&gt;
+
+&lt;p&gt;ビンゴカードが$i$マス埋まった状態を $S_{i}$ とすると、
+例によって遷移確率行列とかいう $S_{i}$ から $S_{j}$ への遷移確率を$(i, j)$成分に持つような26次正方行列 $P$ を書きます。
+今回、行列 $P$ の成分の添字は、埋まったマスの数との対応が取れて都合が良いので $0$ から始めることとします。
+すると例えば$P_{01}$ は、マスの埋まってない状態 $S_0$ から$1$マス埋まった状態 $S_1$ への遷移確率を表します。&lt;/p&gt;
+
+
+$$
+P = \left(
+    \begin{array}{cccccc}
+          0      &amp; 25/25  &amp; 0      &amp; \ldots &amp; 0      &amp; 0       \\
+          0      &amp; 1/25   &amp; 24/25  &amp; \ldots &amp; 0      &amp; 0       \\
+          \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots  \\
+          0      &amp; 0      &amp; 0      &amp; \ldots &amp; 24/25  &amp; 1/25    \\
+          0      &amp; 0      &amp; 0      &amp; \ldots &amp; 0      &amp; 25/25   \\
+    \end{array}
+    \right)\\
+$$
+
+
+
+&lt;p&gt;実際は、$S_{23}$と$S_{24}$の時は土曜日と日曜日にもらえる「ぐるぐるビンゴスペシャルスタンプ」を使うと思うので、
+$S_{23}$になっている確率とビンゴを回す回数の関係を求めます。&lt;br /&gt;
+このために、$P$の不要な次元を落としつつ、$S_{23}$ から $S_{24}$ に遷移しないようした、
+24次正方行列 $P&amp;rsquo;$ にします。&lt;/p&gt;
+
+
+$$
+P&#39; = \left(
+    \begin{array}{cccccc}
+          0      &amp; 25/25  &amp; 0      &amp; \ldots &amp; 0      &amp; 0      \\
+          0      &amp; 1/25   &amp; 24/25  &amp; \ldots &amp; 0      &amp; 0      \\
+          \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots \\
+          0      &amp; 0      &amp; 0      &amp; \ldots &amp; 22/25  &amp; 3/25   \\
+          0      &amp; 0      &amp; 0      &amp; \ldots &amp; 0      &amp; 1      \\
+    \end{array}
+    \right)\\
+$$
+
+
+
+&lt;p&gt;これを、$S_{0}$から始めて$S_{23}$に遷移する確率、
+すなわち$(0, 23)$成分の確率が求めたい成功率になると思います。
+この$P&amp;rsquo;$を$n$乗してあげれば$n$回ビンゴを回したした回数になります。&lt;/p&gt;
+
+&lt;p&gt;ちなみに $(23, 23)$を1にしてあげることで、
+$P&amp;rsquo;^n$の$23$列目の確率は$n$回ビンゴを回したときに23マス埋まっている累計の確率になります。&lt;/p&gt;
+
+&lt;p&gt;さて、この$P&amp;rsquo;^n$の指数$n$を増やしながら、
+ビンゴカードを何回回すと、どのくらいの確率で23マス埋まるのか計算した結果、次のグラフのようになりました。&lt;/p&gt;
+
+&lt;canvas id=&#34;chart&#34; class=&#34;chart&#34;&gt;&lt;/canvas&gt;
+
+&lt;p&gt;これによると64回ビンゴを回せば90%を超えます。&lt;/p&gt;
+
+&lt;p&gt;したがって、1週間で1枚完成するつもりで1日に回さないといけない回数は、
+
+$$
+64 / 7 \fallingdotseq 9.143 [回]
+$$
+
+
+から、大体9回!&lt;/p&gt;
+
+&lt;p&gt;1日の放置時間は……
+
+$$
+(9-1) \times 3 / 2 = 12 [時間]
+$$
+
+&lt;/p&gt;
+
+&lt;p&gt;なので半日!&lt;/p&gt;
+
+&lt;p&gt;ちなみに1日3時間くらい遊ぶとすると、1週間に回せる回数は、
+$3 \times 7 = 21$ [回]で、この程度じゃ23マスなんて埋まらないです……。&lt;/p&gt;
+
+&lt;p&gt;6時間寝てるとして、この間中も電源つけてるとすると、
+1週間に
+$7 \times 7 = 49$ [回] ビンゴを回すことができて、こ
+の時の確率は……$50.8\%$ 位!&lt;/p&gt;
+
+&lt;p&gt;低い……&lt;br /&gt;
+日中も電源入れっぱなしにしないと不味そう……。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;以下確率計算に使ったソース(間違ってるかも)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;#!/usr/bin/env python3
+import numpy as np
+
+# 試行回数
+NUM = 150
+
+# マス目の数
+ITEM_NUM = 25
+# 24, 25マス目の分を除く次元数
+DIMENTION = ITEM_NUM - 2
+
+# 遷移確率行列
+trans_prob = np.zeros((DIMENTION, DIMENTION))
+for i in range(DIMENTION):
+    trans_prob[i,i] = i / ITEM_NUM
+    if i+1 &amp;lt; DIMENTION:
+        trans_prob[i,i+1] = (ITEM_NUM - i) / ITEM_NUM
+
+trans_prob[DIMENTION-1,DIMENTION-1] = 1
+
+# 初期状態
+initial_prob = np.zeros(23)
+initial_prob[0] = 1
+
+power_prob = initial_prob
+for i in range(NUM):
+    print(power_prob[-1] * 100)
+    power_prob = power_prob @ trans_prob
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://scrambledegg.github.io/css/chart.css&#34;&gt;
+&lt;script src=&#34;https://scrambledegg.github.io/js/2017/08/27/script.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/x-mathjax-config&#34;&gt;
+
+  MathJax.Hub.Config({ tex2jax: { inlineMath: [[&#39;$&#39;,&#39;$&#39;], [&#34;\\(&#34;,&#34;\\)&#34;]] } });
+
+
+&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>シードフィナハにいってみました</title>
