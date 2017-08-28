@@ -73,24 +73,24 @@ $P'^n$の$23$列目の確率は$n$回ビンゴを回したときに23マス埋�
 
 <canvas id="chart" class="chart"></canvas>
 
-これによると64回ビンゴを回せば90%を超えます。
+これによると75回ビンゴを回せば90%を超えます。
 
 したがって、1週間で1枚完成するつもりで1日に回さないといけない回数は、
 {{<raw>}}
 $$
-64 / 7 \fallingdotseq 9.143 [回]
+75 / 7 \fallingdotseq 10.7 [回]
 $$
 {{</raw>}}
-から、大体9回!
+から、大体11回!
 
 1日の放置時間は……
 {{<raw>}}
 $$
-(9-1) \times 3 / 2 = 12 [時間]
+(11-1) \times 3 / 2 = 15 [時間]
 $$
 {{</raw>}}
 
-なので半日!
+なので半日以上!
 
 ちなみに1日3時間くらい遊ぶとすると、1週間に回せる回数は
 $3 \times 7 = 21$ [回]で、この程度じゃ23マスなんて埋まらないです……。
@@ -98,7 +98,7 @@ $3 \times 7 = 21$ [回]で、この程度じゃ23マスなんて埋まらない�
 6時間寝てるとしてこの間中も電源つけてるとすると、
 1週間に
 $7 \times 7 = 49$ [回] ビンゴを回すことができて、こ
-の時の確率は……$50.8\%$ 位!
+の時の確率は……$27.5\%$ 位!
 
 低い……  
 日中も電源入れっぱなしにしないとまずそう……。
@@ -111,12 +111,12 @@ $7 \times 7 = 49$ [回] ビンゴを回すことができて、こ
 import numpy as np
 
 # 試行回数
-NUM = 150
+NUM = 100
 
 # マス目の数
 ITEM_NUM = 25
 # 24, 25マス目の分を除く次元数
-DIMENTION = ITEM_NUM - 2
+DIMENTION = ITEM_NUM - 1
 
 # 遷移確率行列
 trans_prob = np.zeros((DIMENTION, DIMENTION))
@@ -128,13 +128,14 @@ for i in range(DIMENTION):
 trans_prob[DIMENTION-1,DIMENTION-1] = 1
 
 # 初期状態
-initial_prob = np.zeros(23)
+initial_prob = np.zeros(DIMENTION)
 initial_prob[0] = 1
 
 power_prob = initial_prob
+
 for i in range(NUM):
-    print(power_prob[-1] * 100)
     power_prob = power_prob @ trans_prob
+    print(power_prob[-1] * 100)
 ```
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
