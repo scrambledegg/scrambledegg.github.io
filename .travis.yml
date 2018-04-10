@@ -34,7 +34,7 @@ before_install:
   - npm install -g npm
   - npm install -g grunt-cli
   - npm install --save-dev grunt
-  - npm install --save-dev grunt-image
+  - npm install --save-dev grunt-image@4.1.1
 
 install:
   - wget https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linux-64bit.tar.gz
