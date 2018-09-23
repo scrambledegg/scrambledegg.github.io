@@ -6,8 +6,164 @@
     <description>Recent content in Blog-rsses on scrambledegg&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 29 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Sep 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://scrambledegg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ハシディムさん観察</title>
+      <link>https://scrambledegg.github.io/blog/2018/09/23/hello-hasidim/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://scrambledegg.github.io/blog/2018/09/23/hello-hasidim/</guid>
+      <description>
+
+&lt;h2 id=&#34;いんとろ&#34;&gt;いんとろ&lt;/h2&gt;
+
+&lt;p&gt;ハシディムさんの突進がなかなか回避できません、もいです、こんばんは。
+ギルドで挑戦したとき、鉱物爆発中にペット出しているとどうも動きがおかしくなっているのでは?
+という経験をしたので、ソロで可能な範囲でいろいろやってみました。&lt;/p&gt;
+
+&lt;h2 id=&#34;要約&#34;&gt;要約&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;鉱物爆発の周期はおよそ60秒&lt;/li&gt;
+&lt;li&gt;タゲがをとっているキャラがいなくても、鉱物爆発の時間(60秒)はカウントされている&lt;/li&gt;
+&lt;li&gt;鉱物爆発はペットを対象には降ってこないが、キャラの周りにいると当たる&lt;/li&gt;
+&lt;li&gt;タゲを消失すると、(ソロで確認可能な範囲では) どのスキルモーション中でもキャンセルする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;試したこと&#34;&gt;試したこと&lt;/h2&gt;
+
+&lt;h3 id=&#34;鉱物爆発の周期&#34;&gt;鉱物爆発の周期&lt;/h3&gt;
+
+&lt;p&gt;鉱物爆発、飛んでから落ちてくるまでバラバラですが、いくつか数えてみたら以下のような感じでした。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;モーション&lt;/th&gt;
+&lt;th&gt;経過時間&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;しゃがんで踏ん張る–ぽわぽわぁ&lt;/td&gt;
+&lt;td&gt;約2秒&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ぽわぽわぁ–鉱物落下&lt;/td&gt;
+&lt;td&gt;約1–6秒&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;しゃがみから鉱物落下までおよそ3–8秒&lt;/strong&gt;の様子。
+ギルドで約7分間で討伐した動画――8回の鉱物爆発を含む――を見直すと、
+鉱物爆発間の間隔は、&lt;strong&gt;56.1 ± 6.9 [秒]&lt;/strong&gt;で、最短46秒、最長65秒でした。
+(しゃがみ–しゃがみの間で計測)&lt;/p&gt;
+
+&lt;h4 id=&#34;流星周期のカウントやり直し&#34;&gt;流星周期のカウントやり直し&lt;/h4&gt;
+
+&lt;p&gt;鉱物爆発後、55秒くらい経過してから危機脱出を20秒ほどすると、
+大体入場してからと同じくらいの間隔で鉱物爆発をしてきました。
+また、鉱物爆発のあと30秒くらいで危機脱出をしてタゲを切っても、
+大体30秒間くらいは鉱物爆発をしてきませんでした。&lt;/p&gt;
+
+&lt;p&gt;したがって、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;途中でタゲ切りをしても周期に影響はないが、&lt;/li&gt;
+&lt;li&gt;ただし、タゲがない間に周期が来くると鉱物爆発をせず、&lt;/li&gt;
+&lt;li&gt;再度鉱物爆発をしてから周期のカウントをやり直す&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ようです。&lt;/p&gt;
+
+&lt;h3 id=&#34;鉱物爆発の対象&#34;&gt;鉱物爆発の対象&lt;/h3&gt;
+
+&lt;p&gt;キャラ周辺の円にはペットにも当たり判定がある、ということのようです。&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2018/09/23/01.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;キャラから離れていると当たらないの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://scrambledegg.github.io/img/2018/09/23/02.jpg&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;キャラに近いと当たるの図&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;鉱物爆発中のペット呼び出し解除-死亡&#34;&gt;鉱物爆発中のペット呼び出し解除・死亡&lt;/h3&gt;
+
+&lt;p&gt;当初の予定の、ペット出してると流星攻撃後の動きがおかしくなっていたのを調べるべく、
+ペット消したり死亡させたりしたところ、次のようなことが起きていたみたいです。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;現象&lt;/th&gt;
+&lt;th&gt;要因&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;鉱物爆発終わって（スパの暇なく）すぐに攻撃し始める&lt;/td&gt;
+&lt;td&gt;鉱物爆発時にタゲを持ったペットが死ぬ&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;鉱物爆発を神聖スキルのCT前に再度使用する&lt;/td&gt;
+&lt;td&gt;タゲを持ったペットを消して鉱物爆発スキルをキャンセルする&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;2番目は、サポショにペットアタックしないように慌てて消したりして起きてたんじゃないかと思っています。
+PTで行ってるときの動画にないからわからないけれど、このとき鉱物が降ってきてないなら合っていそうだけど、どうだったか……。&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/sy9kA70OAO0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/w73CT7916bo&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;ガシと違ってモーション中でもスキルキャンセルできるみたいです
+(ちなみに、キャラがタゲを切ってもスキルキャンセルされます)。
+モーション中のスキルキャンセルを確認したのは次のスキルです:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;武器振り回すアレ&lt;/li&gt;
+&lt;li&gt;猛々しい突進&lt;/li&gt;
+&lt;li&gt;魂の追撃&lt;/li&gt;
+&lt;li&gt;鉱物爆発&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/JJmeWkWlcEw&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&#34;余談&#34;&gt;余談&lt;/h2&gt;
+
+&lt;p&gt;危機脱出とかうまいことやれば苦痛の試練スキップできたりしないかなぁ……。
+あれ辛い……。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ダンバートン守護ギルド選抜戦完封!</title>
