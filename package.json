@@ -1,0 +1,24 @@
+{
+  "name": "scrambledegg.github.io",
+  "version": "1.0.0",
+  "description": "dependencies and scripts to build scrambledegg's blog",
+  "private": true,
+  "scripts": {
+    "optimize": "grunt image"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrambledegg/scrambledegg.github.io.git"
+  },
+  "author": "blyoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scrambledegg/scrambledegg.github.io/issues"
+  },
+  "homepage": "https://github.com/scrambledegg/scrambledegg.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-cli": "^1.4.3",
+    "grunt-image": "^6.4.0"
+  }
+}
