@@ -87,6 +87,12 @@ googleAnalytics = "UA-66624669-5"
     identifier = "fa fa-users"
     weight = 4
 
+[[menu.main]]
+    name = "Privacy"
+    url = "/privacy"
+    identifier = "fa fa-shield"
+    weight = 5
+
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
