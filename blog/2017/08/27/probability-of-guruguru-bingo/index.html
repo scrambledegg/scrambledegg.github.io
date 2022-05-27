@@ -1,799 +1,429 @@
-<!DOCTYPE HTML>
-
-<html>
-    <head>
-        
-            
-                <title>ぐるぐるビンゴカードが埋まる確率</title>
-            
-        
-
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.17" />
-        
-
-
-        
-            <meta name="author" content="もい">
-        
-        
-            <meta name="description" content="ぐるぐるビンゴカードのコインってどのくらいいるの？">
-        
-
-        
-
-  <meta name="twitter:card" content="summary"/>
-
-
-
-<meta name="twitter:title" content="ぐるぐるビンゴカードが埋まる確率"/>
-<meta name="twitter:description" content="ぐるぐるビンゴカードのコインってどのくらいいるの？"/>
-
-
-
-        <meta property="og:title" content="ぐるぐるビンゴカードが埋まる確率" />
-<meta property="og:description" content="ぐるぐるビンゴカードのコインってどのくらいいるの？" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://scrambledegg.github.io/blog/2017/08/27/probability-of-guruguru-bingo/" />
-
-
-<meta property="og:updated_time" content="2017-08-27T00:00:00&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
-        
-<meta itemprop="name" content="ぐるぐるビンゴカードが埋まる確率">
-<meta itemprop="description" content="ぐるぐるビンゴカードのコインってどのくらいいるの？">
-
-
-<meta itemprop="dateModified" content="2017-08-27T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1273">
-
-
-
-<meta itemprop="keywords" content="mabinogi," />
-
-        
-
-        
-
-        
-        
-            
-        
-
-        
-        
-
-        
-            
-                
-                    <link rel="stylesheet" href="/css/main.min.css" />
-                
-            
-                
-                    <link rel="stylesheet" href="/css/custom.css" />
-                
-            
-        
-
-        
-        
-        
-            
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-66624669-5', 'auto');
-ga('send', 'pageview');
-</script>
-
-        
-    </head>
-    <body>
-
-        
-        <div id="wrapper">
-
-    
-    
-<header id="header">
-    
-        <h2><a href="/">scrambledegg</i></a></h2>
-    
-
-    <nav class="links">
-        <ul>
-            
-                <li>
-                    <a href="/blog">
-                        
-                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/categories">
-                        
-                            <i class="fa fa-sitemap">&nbsp;</i>Categories
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/tool">
-                        
-                            <i class="fa fa-wrench">&nbsp;</i>Tool
-                    </a>
-                </li>
-            
-                <li>
-                    <a href="/about">
-                        
-                            <i class="fa fa-users">&nbsp;</i>About
-                    </a>
-                </li>
-            
-        </ul>
-    </nav>
-    <nav class="main">
-        <ul>
-            
-            <li id="share-nav" class="share-menu" style="display:none;">
-                <a class="fa-share-alt" href="#share-menu">Share</a>
-            </li>
-            
-            <li class="search">
-                <a class="fa-search" href="#search">Search</a>
-                <form id="search" method="get" action="//google.com/search">
-                    <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="q" value="site:https://scrambledegg.github.io/">
-                </form>
-            </li>
-            <li class="menu">
-                <a class="fa-bars" href="#menu">Menu</a>
-            </li>
-        </ul>
-    </nav>
+<!doctype html><html>
+<head>
+<title>ぐるぐるビンゴカードが埋まる確率</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=generator content="Hugo 0.92.2">
+<meta name=author content="もい">
+<meta name=description content="ぐるぐるビンゴカードのコインってどのくらいいるの？">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="ぐるぐるビンゴカードが埋まる確率">
+<meta name=twitter:description content="ぐるぐるビンゴカードのコインってどのくらいいるの？">
+<meta property="og:title" content="ぐるぐるビンゴカードが埋まる確率">
+<meta property="og:description" content="ぐるぐるビンゴカードのコインってどのくらいいるの？">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scrambledegg.github.io/blog/2017/08/27/probability-of-guruguru-bingo/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2017-08-27T00:00:00+00:00">
+<meta property="article:modified_time" content="2017-08-27T00:00:00+00:00">
+<meta itemprop=name content="ぐるぐるビンゴカードが埋まる確率">
+<meta itemprop=description content="ぐるぐるビンゴカードのコインってどのくらいいるの？"><meta itemprop=datePublished content="2017-08-27T00:00:00+00:00">
+<meta itemprop=dateModified content="2017-08-27T00:00:00+00:00">
+<meta itemprop=wordCount content="1251">
+<meta itemprop=keywords content>
+<link rel=stylesheet href=/css/google-font.css>
+<link rel=stylesheet href=/css/font-awesome.min.css>
+<link rel=stylesheet href=/css/main.css>
+<link rel=stylesheet href=/css/add-on.css>
+<link rel=stylesheet href=/css/monokai-sublime.css>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-66624669-5','auto'),ga('send','pageview'))</script>
+</head>
+<body>
+<div id=wrapper>
+<header id=header>
+<h2><a href=/>scrambledegg</i></a></h2>
+<nav class=links>
+<ul>
+<li>
+<a href=/blog>
+<i class="fa fa-newspaper-o">&nbsp;</i>Blog
+</a>
+</li>
+<li>
+<a href=/categories>
+<i class="fa fa-sitemap">&nbsp;</i>Categories
+</a>
+</li>
+<li>
+<a href=/tool>
+<i class="fa fa-wrench">&nbsp;</i>Tool
+</a>
+</li>
+<li>
+<a href=/about>
+<i class="fa fa-users">&nbsp;</i>About
+</a>
+</li>
+</ul>
+</nav>
+<nav class=main>
+<ul>
+<li id=share-nav class=share-menu style=display:none>
+<a class=fa-share-alt href=#share-menu>Share</a>
+</li>
+<li class=search>
+<a class=fa-search href=#search>Search</a>
+<form id=search method=get action=//google.com/search>
+<input type=text name=q placeholder=Search>
+<input type=hidden name=q value=site:https://scrambledegg.github.io/>
+</form>
+</li>
+<li class=menu>
+<a class=fa-bars href=#menu>Menu</a>
+</li>
+</ul>
+</nav>
 </header>
-
-
-<section id="menu">
-
-    
-        <section>
-            <form class="search" method="get" action="//google.com/search">
-                <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="q" value="site:https://scrambledegg.github.io/">
-            </form>
-        </section>
-
-    
-        <section>
-            <ul class="links">
-                
-                    <li>
-                        <a href="/blog">
-                            <h3>
-                                
-                                    <i class="fa fa-newspaper-o">&nbsp;</i>
-                                
-                                Blog
-                            </h3>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/categories">
-                            <h3>
-                                
-                                    <i class="fa fa-sitemap">&nbsp;</i>
-                                
-                                Categories
-                            </h3>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/tool">
-                            <h3>
-                                
-                                    <i class="fa fa-wrench">&nbsp;</i>
-                                
-                                Tool
-                            </h3>
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/about">
-                            <h3>
-                                
-                                    <i class="fa fa-users">&nbsp;</i>
-                                
-                                About
-                            </h3>
-                        </a>
-                    </li>
-                
-            </ul>
-        </section>
-
-    
-        <section>
-            <ul class="links">
-                <header>
-                    <h3>Recent Posts</h3>
-                </header>
-                
-                    
-                
-
-                
-                    <li>
-                        <a href="https://scrambledegg.github.io/blog/2018/09/23/hello-hasidim/"><p>ハシディムさん観察</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="https://scrambledegg.github.io/blog/2018/07/29/guild-fight-dunbarton-shutout/"><p>ダンバートン守護ギルド選抜戦完封!</p></a>
-                    </li>
-                
-                    <li>
-                        <a href="https://scrambledegg.github.io/blog/2018/07/01/guild-fight-dunbarton-v10/"><p>ダンバートン守護ギルド選抜戦10連勝!</p></a>
-                    </li>
-                
-            </ul>
-        </section>
-
-    
-        
+<section id=menu>
+<section>
+<form class=search method=get action=//google.com/search>
+<input type=text name=q placeholder=Search>
+<input type=hidden name=q value=site:https://scrambledegg.github.io/>
+</form>
 </section>
-
-    <section id="share-menu">
-    <section id="social-share-nav">
-        <ul class="links">
-            <header>
-                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
-            </header>
-            
-
-
-<li><a href="//twitter.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&text=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87&via=" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
-</a></li>
-
-
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
-</a></li>
-
-
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
-</a></li>
-
-
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
-</a></li>
-
-
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target="_blank" class="share-btn linkedin">
-    <i class="fa fa-linkedin"></i>
-    <p>LinkedIn</p>
-</a></li>
-
-
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
-</a></li>
-
-
-<li><a href="mailto:?subject=Check out this post by %e3%82%82%e3%81%84&body=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
-</a></li>
-
-        </ul>
-    </section>
+<section>
+<ul class=links>
+<li>
+<a href=/blog>
+<h3>
+<i class="fa fa-newspaper-o">&nbsp;</i>
+Blog
+</h3>
+</a>
+</li>
+<li>
+<a href=/categories>
+<h3>
+<i class="fa fa-sitemap">&nbsp;</i>
+Categories
+</h3>
+</a>
+</li>
+<li>
+<a href=/tool>
+<h3>
+<i class="fa fa-wrench">&nbsp;</i>
+Tool
+</h3>
+</a>
+</li>
+<li>
+<a href=/about>
+<h3>
+<i class="fa fa-users">&nbsp;</i>
+About
+</h3>
+</a>
+</li>
+</ul>
 </section>
-
-    
-    <div id="main">
-        
-        
-        <article class="post">
-    <header>
-    <div class="title">
-        
-            <h1><a href="https://scrambledegg.github.io/blog/2017/08/27/probability-of-guruguru-bingo/">ぐるぐるビンゴカードが埋まる確率</a></h1>
-            
-        
-        
-            <p>ぐるぐるビンゴカードのコインってどのくらいいるの？</p>
-        
-    </div>
-    <div class="meta">
-        
-            
-        
-
-        <time class="published"
-            datetime='2017-08-27'>
-            August 27, 2017</time>
-        <span class="author">もい</span>
-        
-        
-    </div>
+<section>
+<ul class=links>
+<header>
+<h3>Recent Posts</h3>
 </header>
-
-
-    <section id="social-share">
-        <ul class="icons">
-            
-
-
-<li><a href="//twitter.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&text=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87&via=" target="_blank" class="share-btn twitter">
-    <i class="fa fa-twitter"></i>
-    <p>Twitter</p>
+<li>
+<a href=https://scrambledegg.github.io/blog/2018/09/23/hello-hasidim/><p>ハシディムさん観察</p></a>
+</li>
+<li>
+<a href=https://scrambledegg.github.io/blog/2018/07/29/guild-fight-dunbarton-shutout/><p>ダンバートン守護ギルド選抜戦完封!</p></a>
+</li>
+<li>
+<a href=https://scrambledegg.github.io/blog/2018/07/01/guild-fight-dunbarton-v10/><p>ダンバートン守護ギルド選抜戦10連勝!</p></a>
+</li>
+</ul>
+</section>
+</section>
+<section id=share-menu>
+<section id=social-share-nav>
+<ul class=links>
+<header>
+<h3>Share this post <i class="fa fa-smile-o"></i></h3>
+</header>
+<li><a href="//twitter.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&text=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87&via=" target=_blank class="share-btn twitter">
+<i class="fa fa-twitter"></i>
+<p>Twitter</p>
 </a></li>
-
-
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target="_blank" class="share-btn google-plus">
-    <i class="fa fa-google-plus"></i>
-    <p>Google+</p>
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target=_blank class="share-btn google-plus">
+<i class="fa fa-google-plus"></i>
+<p>Google+</p>
 </a></li>
-
-
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target="_blank" class="share-btn facebook">
-    <i class="fa fa-facebook"></i>
-    <p>Facebook</p>
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target=_blank class="share-btn facebook">
+<i class="fa fa-facebook"></i>
+<p>Facebook</p>
 </a></li>
-
-
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target="_blank" class="share-btn reddit">
-    <i class="fa fa-reddit-alien"></i>
-    <p>Reddit</p>
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target=_blank class="share-btn reddit">
+<i class="fa fa-reddit-alien"></i>
+<p>Reddit</p>
 </a></li>
-
-
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target="_blank" class="share-btn linkedin">
-    <i class="fa fa-linkedin"></i>
-    <p>LinkedIn</p>
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target=_blank class="share-btn linkedin">
+<i class="fa fa-linkedin"></i>
+<p>LinkedIn</p>
 </a></li>
-
-
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target="_blank" class="share-btn stumbleupon">
-    <i class="fa fa-stumbleupon"></i>
-    <p>StumbleUpon</p>
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target=_blank class="share-btn stumbleupon">
+<i class="fa fa-stumbleupon"></i>
+<p>StumbleUpon</p>
 </a></li>
-
-
-<li><a href="mailto:?subject=Check out this post by %e3%82%82%e3%81%84&body=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target="_blank" class="share-btn email">
-    <i class="fa fa-envelope"></i>
-    <p>Email</p>
+<li><a href="mailto:?subject=Check out this post by %e3%82%82%e3%81%84&body=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target=_blank class="share-btn email">
+<i class="fa fa-envelope"></i>
+<p>Email</p>
 </a></li>
-
-        </ul>
-    </section>
-    
-    
-
-    
-        
-        
-
-
-
-
-    
-
-
-        
-
-        <a href="https://scrambledegg.github.io/blog/2017/08/27/probability-of-guruguru-bingo/" class="image featured">
-            <img src="/img/2017/08/27/feature.jpg" alt="" />
-        </a>
-    
-
-
-    <div id="content">
-        
-
-<h1 id="いんとろ">いんとろ</h1>
-
+</ul>
+</section>
+</section>
+<div id=main>
+<article class=post>
+<header>
+<div class=title>
+<h1><a href=https://scrambledegg.github.io/blog/2017/08/27/probability-of-guruguru-bingo/>ぐるぐるビンゴカードが埋まる確率</a></h1>
+<p>ぐるぐるビンゴカードのコインってどのくらいいるの？</p>
+</div>
+<div class=meta>
+<time class=published datetime=2017-08-27>
+August 27, 2017</time>
+<span class=author>もい</span>
+</div>
+</header>
+<section id=social-share>
+<ul class=icons>
+<li><a href="//twitter.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&text=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87&via=" target=_blank class="share-btn twitter">
+<i class="fa fa-twitter"></i>
+<p>Twitter</p>
+</a></li>
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target=_blank class="share-btn google-plus">
+<i class="fa fa-google-plus"></i>
+<p>Google+</p>
+</a></li>
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target=_blank class="share-btn facebook">
+<i class="fa fa-facebook"></i>
+<p>Facebook</p>
+</a></li>
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target=_blank class="share-btn reddit">
+<i class="fa fa-reddit-alien"></i>
+<p>Reddit</p>
+</a></li>
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target=_blank class="share-btn linkedin">
+<i class="fa fa-linkedin"></i>
+<p>LinkedIn</p>
+</a></li>
+<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f&title=%e3%81%90%e3%82%8b%e3%81%90%e3%82%8b%e3%83%93%e3%83%b3%e3%82%b4%e3%82%ab%e3%83%bc%e3%83%89%e3%81%8c%e5%9f%8b%e3%81%be%e3%82%8b%e7%a2%ba%e7%8e%87" target=_blank class="share-btn stumbleupon">
+<i class="fa fa-stumbleupon"></i>
+<p>StumbleUpon</p>
+</a></li>
+<li><a href="mailto:?subject=Check out this post by %e3%82%82%e3%81%84&body=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2017%2f08%2f27%2fprobability-of-guruguru-bingo%2f" target=_blank class="share-btn email">
+<i class="fa fa-envelope"></i>
+<p>Email</p>
+</a></li>
+</ul>
+</section>
+<a href=https://scrambledegg.github.io/blog/2017/08/27/probability-of-guruguru-bingo/ class="image featured">
+<img src=/img/2017/08/27/feature.jpg alt>
+</a>
+<div id=content>
+<h1 id=いんとろ>いんとろ</h1>
 <p>「ぐるぐるビンゴ」イベント始まって
-ちょろちょろしかINしてなくてコインが全然ありません。<br />
+ちょろちょろしかINしてなくてコインが全然ありません。<br>
 もいです、こんばんは。</p>
-
 <p>なかなかカードが埋まらないので、
-<a href="https://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/">改造石の個数と成功率を求めた記事</a>
+<a href=https://scrambledegg.github.io/blog/2016/05/08/probability-of-special-upgrade/>改造石の個数と成功率を求めた記事</a>
 を少しいじって、何枚コインを使うと何マス位埋まるのかの確率を求めてみました。</p>
-
-<h1 id="計算する">計算する</h1>
-
+<h1 id=計算する>計算する</h1>
 <p>ビンゴカードが$i$マス埋まった状態を $S_{i}$ とすると、
 例によって遷移確率行列とかいう $S_{i}$ から $S_{j}$ への遷移確率を$(i, j)$成分に持つような26次正方行列 $P$ を書きます。
 今回行列 $P$ の成分の添字は、埋まったマスの数との対応が取れて都合が良いので $0$ から始めることとします。
 すると例えば$P_{01}$ は、マスの埋まってない状態 $S_0$ から$1$マス埋まった状態 $S_1$ への遷移確率を表します。</p>
-
-
 $$
 P = \left(
-    \begin{array}{cccccc}
-          0      & 25/25  & 0      & \ldots & 0      & 0       \\
-          0      & 1/25   & 24/25  & \ldots & 0      & 0       \\
-          \vdots & \vdots & \vdots & \ddots & \vdots & \vdots  \\
-          0      & 0      & 0      & \ldots & 24/25  & 1/25    \\
-          0      & 0      & 0      & \ldots & 0      & 25/25   \\
+\begin{array}{cccccc}
+0 & 25/25  & 0      & \ldots & 0     & 0       \\
+          0      & 1/25 & 24/25  & \ldots & 0      & 0     \\
+\vdots & \vdots & \vdots & \ddots & \vdots & \vdots  \\
+          0      & 0  & 0      & \ldots & 24/25  & 1/25  \\
+0 & 0      & 0      & \ldots & 0     & 25/25   \\
     \end{array}
     \right)\\
 $$
-
-
-
 <p>実際は$S_{23}$と$S_{24}$の時は土曜日と日曜日にもらえる「ぐるぐるビンゴスペシャルスタンプ」を使うと思うので、
-$S_{23}$になっている確率とビンゴを回す回数の関係を求めます。<br />
+$S_{23}$になっている確率とビンゴを回す回数の関係を求めます。<br>
 このために$P$の不要な次元を落としつつ、$S_{23}$ から $S_{24}$ に遷移しないようした
-24次正方行列 $P&rsquo;$ にします。</p>
-
-
+24次正方行列 $P'$ にします。</p>
 $$
 P' = \left(
-    \begin{array}{cccccc}
-          0      & 25/25  & 0      & \ldots & 0      & 0      \\
-          0      & 1/25   & 24/25  & \ldots & 0      & 0      \\
-          \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
-          0      & 0      & 0      & \ldots & 22/25  & 3/25   \\
-          0      & 0      & 0      & \ldots & 0      & 1      \\
+\begin{array}{cccccc}
+0 & 25/25  & 0      & \ldots & 0     & 0      \\
+          0      & 1/25 & 24/25  & \ldots & 0      & 0     \\
+\vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+          0      & 0   & 0      & \ldots & 22/25  & 3/25  \\
+0 & 0      & 0      & \ldots & 0     & 1      \\
     \end{array}
     \right)\\
 $$
-
-
-
 <p>このうち、$S_{0}$から始めて$S_{23}$に遷移する確率、
 すなわち$(0, 23)$成分の確率が求めたい成功率になると思います。
-この$P&rsquo;$を$n$乗してあげれば$n$回ビンゴを回したときの確率になります。</p>
-
+この$P'$を$n$乗してあげれば$n$回ビンゴを回したときの確率になります。</p>
 <p>ちなみに $(23, 23)$ 成分を1にしてあげることで、
-$P&rsquo;^n$の$23$列目の確率は$n$回ビンゴを回したときに23マス埋まっている累計の確率になります。</p>
-
-<p>さて、この$P&rsquo;^n$の指数$n$を増やしながらビンゴカードを何回回すと、
+$P'^n$の$23$列目の確率は$n$回ビンゴを回したときに23マス埋まっている累計の確率になります。</p>
+<p>さて、この$P'^n$の指数$n$を増やしながらビンゴカードを何回回すと、
 どのくらいの確率で23マス埋まるのか計算した結果、次のグラフのようになりました。</p>
-
-<canvas id="chart" class="chart"></canvas>
-
+<p></p>
 <p>これによると75回ビンゴを回せば90%を超えます。</p>
-
 <p>したがって、1週間で1枚完成するつもりで1日に回さないといけない回数は、
-
 $$
 75 / 7 \fallingdotseq 10.7 [回]
 $$
-
-
 から、大体11回!</p>
-
 <p>1日の放置時間は……
-
 $$
 (11-1) \times 3 / 2 = 15 [時間]
 $$
-
 </p>
-
 <p>なので半日以上!</p>
-
 <p>ちなみに1日3時間くらい遊ぶとすると、1週間に回せる回数は
 $3 \times 7 = 21$ [回]で、この程度じゃ23マスなんて埋まらないです……。</p>
-
 <p>6時間寝てるとしてこの間中も電源つけてるとすると、
 1週間に
 $7 \times 7 = 49$ [回] ビンゴを回すことができて、こ
-の時の確率は……$27.5\%$ 位!</p>
-
-<p>低い……<br />
+の時の確率は……$27.5%$ 位!</p>
+<p>低い……<br>
 日中も電源入れっぱなしにしないとまずそう……。</p>
-
-<hr />
-
+<hr>
 <p>以下確率計算に使ったソース(間違ってるかも)</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#75715e>#!/usr/bin/env python3</span>
+<span style=color:#f92672>import</span> numpy <span style=color:#66d9ef>as</span> np
 
-<pre><code class="language-python">#!/usr/bin/env python3
-import numpy as np
+<span style=color:#75715e># 試行回数</span>
+NUM <span style=color:#f92672>=</span> <span style=color:#ae81ff>100</span>
 
-# 試行回数
-NUM = 100
+<span style=color:#75715e># マス目の数</span>
+ITEM_NUM <span style=color:#f92672>=</span> <span style=color:#ae81ff>25</span>
+<span style=color:#75715e># 24, 25マス目の分を除く次元数</span>
+DIMENTION <span style=color:#f92672>=</span> ITEM_NUM <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span>
 
-# マス目の数
-ITEM_NUM = 25
-# 24, 25マス目の分を除く次元数
-DIMENTION = ITEM_NUM - 1
+<span style=color:#75715e># 遷移確率行列</span>
+trans_prob <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>zeros((DIMENTION, DIMENTION))
+<span style=color:#66d9ef>for</span> i <span style=color:#f92672>in</span> range(DIMENTION):
+    trans_prob[i,i] <span style=color:#f92672>=</span> i <span style=color:#f92672>/</span> ITEM_NUM
+    <span style=color:#66d9ef>if</span> i<span style=color:#f92672>+</span><span style=color:#ae81ff>1</span> <span style=color:#f92672>&lt;</span> DIMENTION:
+        trans_prob[i,i<span style=color:#f92672>+</span><span style=color:#ae81ff>1</span>] <span style=color:#f92672>=</span> (ITEM_NUM <span style=color:#f92672>-</span> i) <span style=color:#f92672>/</span> ITEM_NUM
 
-# 遷移確率行列
-trans_prob = np.zeros((DIMENTION, DIMENTION))
-for i in range(DIMENTION):
-    trans_prob[i,i] = i / ITEM_NUM
-    if i+1 &lt; DIMENTION:
-        trans_prob[i,i+1] = (ITEM_NUM - i) / ITEM_NUM
+trans_prob[DIMENTION<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>,DIMENTION<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>] <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>
 
-trans_prob[DIMENTION-1,DIMENTION-1] = 1
+<span style=color:#75715e># 初期状態</span>
+initial_prob <span style=color:#f92672>=</span> np<span style=color:#f92672>.</span>zeros(DIMENTION)
+initial_prob[<span style=color:#ae81ff>0</span>] <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>
 
-# 初期状態
-initial_prob = np.zeros(DIMENTION)
-initial_prob[0] = 1
+power_prob <span style=color:#f92672>=</span> initial_prob
 
-power_prob = initial_prob
-
-for i in range(NUM):
-    power_prob = power_prob @ trans_prob
-    print(power_prob[-1] * 100)
-</code></pre>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
-<link rel="stylesheet" href="/css/chart.css">
-<script src="/js/2017/08/27/script.js"></script>
-<script type="text/x-mathjax-config">
-
-  MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
-
-
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
-
-    </div>
-
-    <footer>
-        <ul class="stats">
-    
-
-    
-        
-            <li>
-                
-                    <i class="fa fa-sitemap">&nbsp;</i>
-                
-        
-
-                
-                    Category
-                
-            </li>
-    
-
-    
-        <li><a href="/categories/mabinogi">mabinogi</a></li>
-    
+<span style=color:#66d9ef>for</span> i <span style=color:#f92672>in</span> range(NUM):
+    power_prob <span style=color:#f92672>=</span> power_prob <span style=color:#f92672>@</span> trans_prob
+    print(power_prob[<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>] <span style=color:#f92672>*</span> <span style=color:#ae81ff>100</span>)
+</code></pre></div>
+</div>
+<footer>
+<ul class=stats>
+<li>
+<i class="fa fa-sitemap">&nbsp;</i>
+Category
+</li>
+<li><a href=/categories/mabinogi>mabinogi</a></li>
 </ul>
-
-    </footer>
+</footer>
 </article>
 <ul class="actions pagination">
-    
-        <li><a href="https://scrambledegg.github.io/blog/2017/05/20/sid-panaha/"
-                class="button big previous">シードフィナハにいってみました</a></li>
-    
-
-    
-        <li><a href="https://scrambledegg.github.io/blog/2018/01/01/happy-new-year/"
-                class="button big next">はっぴーにゅーいやー</a></li>
-    
+<li><a href=https://scrambledegg.github.io/blog/2017/05/20/sid-panaha/ class="button big previous">シードフィナハにいってみました</a></li>
+<li><a href=https://scrambledegg.github.io/blog/2018/01/01/happy-new-year/ class="button big next">はっぴーにゅーいやー</a></li>
 </ul>
-
-
-
-    
-        <article class="post">
-            <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'scrambledegg-github-io';
-    var disqus_identifier = 'https:\/\/scrambledegg.github.io\/blog\/2017\/08\/27\/probability-of-guruguru-bingo\/';
-    var disqus_title = 'ぐるぐるビンゴカードが埋まる確率';
-    var disqus_url = 'https:\/\/scrambledegg.github.io\/blog\/2017\/08\/27\/probability-of-guruguru-bingo\/';
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        </article>
-    
-
-
-    </div>
-    
-<section id="sidebar">
-
-    
-        <section id="intro">
-            
-            
-                
-                    <a href="/" class="logo"><img src="/img/logo/logo.jpg" alt="logo" /></a>
-                
-            
-            
-                <header>
-                    <h2>scrambledegg&#39;s blog</h2>
-                    <p>マビノギ ルエリサーバ 6chで活動するギルドscrambledeggのブログです</p>
-                </header>
-            
-            <ul class="icons">
-                
-                
-            </ul>
-        </section>
-
-    
-        <section id="recent-posts">
-            <ul class="posts">
-                <header>
-                    <h3>Recent Posts</h3>
-                </header>
-                
-                    
-                
-
-                
-                    
-                
-
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="https://scrambledegg.github.io/blog/2018/09/23/hello-hasidim/">ハシディムさん観察</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2018-09-23'>
-                                    September 23, 2018</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="https://scrambledegg.github.io/blog/2018/07/29/guild-fight-dunbarton-shutout/">ダンバートン守護ギルド選抜戦完封!</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2018-07-29'>
-                                    July 29, 2018</time>
-                            </header>
-                        </article>
-                    </li>
-                
-                    <li>
-                        <article>
-                            <header>
-                                <h3><a href="https://scrambledegg.github.io/blog/2018/07/01/guild-fight-dunbarton-v10/">ダンバートン守護ギルド選抜戦10連勝!</a></h3>
-                                
-                                    
-                                
-                                <time class="published" datetime=
-                                    '2018-07-01'>
-                                    July 1, 2018</time>
-                            </header>
-                        </article>
-                    </li>
-                
-
-                
-                    <li>
-                        <ul class="actions">
-                            <li><a href=
-                            
-                                /blog/
-                            
-                            class="button">View more posts</a></li>
-                        </ul>
-                    </li>
-                
-            </ul>
-        </section>
-
-    
-    
-    
-    
-        <section id="categories">
-            <ul class="posts">
-                <header>
-                    <h3><a href="/categories/">Categories</a></h3>
-                </header>
-
-                
-                    
-                
-
-                
-                    <li>
-                        <article>
-                            <header>
-                                <a href="/categories/mabinogi/">mabinogi</a>
-                                <span style="float:right;">15</span>
-                            </header>
-                        </article>
-                    </li>
-                
-            </ul>
-        </section>
-    
-
-    
-        
-        <section class="blurb">
-            <h2>About</h2>
-            <p>ギルド石はダンバートン北。たまり場はダンバートンの広場です！</p>
-
-            <ul class="actions">
-                <li><a href="/about/" class="button">Learn More</a></li>
-            </ul>
-        </section>
-        
-
-    
-        <section id="footer">
-            <ul class="icons">
-                
-                
-            </ul>
-
-            <p class="copyright">&copy; scrambledegg&#39;s blog. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
-        </section>
-
+<article class=post>
+<div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//scrambledegg-github-io.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</article>
+</div>
+<section id=sidebar>
+<section id=intro>
+<a href=/ class=logo><img src=/img/logo/logo.jpg alt=logo></a>
+<header>
+<h2>scrambledegg's blog</h2>
+<p>マビノギ ルエリサーバ 6chで活動するギルドscrambledeggのブログです</p>
+</header>
+<ul class=icons>
+</ul>
 </section>
-
-            </div>
-        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
-        
-
-        
-        
-            
-        
-
-        
-        
-
-        
-            
-                
-                    <script src="/js/main.min.js"></script>
-                
-            
-                
-                    <script src="/js/custom.js"></script>
-                
-            
-        
-
-            
-            <script>hljs.initHighlightingOnLoad();</script>
-            
-    </body>
+<section id=recent-posts>
+<ul class=posts>
+<header>
+<h3>Recent Posts</h3>
+</header>
+<li>
+<article>
+<header>
+<h3><a href=https://scrambledegg.github.io/blog/2018/09/23/hello-hasidim/>ハシディムさん観察</a></h3>
+<time class=published datetime=2018-09-23>
+September 23, 2018</time>
+</header>
+</article>
+</li>
+<li>
+<article>
+<header>
+<h3><a href=https://scrambledegg.github.io/blog/2018/07/29/guild-fight-dunbarton-shutout/>ダンバートン守護ギルド選抜戦完封!</a></h3>
+<time class=published datetime=2018-07-29>
+July 29, 2018</time>
+</header>
+</article>
+</li>
+<li>
+<article>
+<header>
+<h3><a href=https://scrambledegg.github.io/blog/2018/07/01/guild-fight-dunbarton-v10/>ダンバートン守護ギルド選抜戦10連勝!</a></h3>
+<time class=published datetime=2018-07-01>
+July 1, 2018</time>
+</header>
+</article>
+</li>
+<li>
+<ul class=actions>
+<li><a href=/blog/ class=button>View more posts</a></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id=categories>
+<ul class=posts>
+<header>
+<h3><a href=/categories/>Categories</a></h3>
+</header>
+<li>
+<article>
+<header>
+<a href=/categories/mabinogi/>mabinogi</a>
+<span style=float:right>15</span>
+</header>
+</article>
+</li>
+</ul>
+</section>
+<section class=blurb>
+<h2>About</h2>
+<p>ギルド石はダンバートン北。たまり場はダンバートンの広場です！</p>
+<ul class=actions>
+<li><a href=/about/ class=button>Learn More</a></li>
+</ul>
+</section>
+<section id=footer>
+<ul class=icons>
+</ul>
+<p class=copyright>&copy; scrambledegg's blog. Design: <a href=http://html5up.net target=_blank>HTML5 UP</a>. Ported by <a href=//github.com/jpescador target=_blank>Julio Pescador</a>. Powered by <a href=//gohugo.io target=_blank>Hugo</a></p>
+</section>
+</section>
+</div>
+<a id=back-to-top href=# class="fa fa-arrow-up fa-border fa-2x"></a>
+<script src=/js/jquery.min.js></script>
+<script src=/js/skel.min.js></script>
+<script src=/js/util.js></script>
+<script src=/js/main.js></script>
+<script src=/js/backToTop.js></script>
+<script src=/js/highlight.pack.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
 </html>
-
