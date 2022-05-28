@@ -32,8 +32,18 @@ googleAnalytics = "UA-66624669-5"
     # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you
     # can load multiple files if necessary. You can also load the standard theme
     # files by adding the value, "default".
-    customCSS            = ["/css/main.min.css", "/css/custom.css"]
-    customJS             = ["/js/main.min.js", "/js/custom.js"]
+    customCSS            = ["default", "/css/custom.css"]
+    customJS             = ["default", "/js/custom.js"]
+
+    socialShare            = true
+    socialShareTwitter     = true
+    socialShareGoogleplus  = false
+    socialShareFacebook    = true
+    socialShareReddit      = false
+    socialShareLinkedin    = false
+    socialShareStumbleupon = false
+    socialSharePinterest   = false
+    socialShareEmail       = false
 
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
@@ -93,6 +103,12 @@ googleAnalytics = "UA-66624669-5"
     identifier = "fa fa-shield"
     weight = 5
 
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    identifier = "fa fa-envelope"
+    weight = 6
+
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
@@ -123,5 +139,5 @@ googleAnalytics = "UA-66624669-5"
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = ""
+    twitter         = "moineau110"
     email           = ""
