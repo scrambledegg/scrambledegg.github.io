@@ -1,5 +1,6 @@
 <!doctype html><html>
 <head>
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/scrambledegg.github.io\/"},"articleSection":"blog","name":"ブログ作ってみました","headline":"ブログ作ってみました","description":"初投稿！","inLanguage":"en","author":"","creator":"","publisher":"","accountablePerson":"","copyrightHolder":"","copyrightYear":"2016","datePublished":"2016-04-22 00:00:00 \u002b0000 UTC","dateModified":"2016-04-22 00:00:00 \u002b0000 UTC","url":"https:\/\/scrambledegg.github.io\/blog\/2016\/04\/hello-blog\/","wordCount":"113","keywords":["Blog"]}</script>
 <title>ブログ作ってみました</title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
@@ -9,28 +10,36 @@
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="ブログ作ってみました">
 <meta name=twitter:description content="初投稿！">
+<meta name=twitter:site content="@moineau110">
 <meta property="og:title" content="ブログ作ってみました">
 <meta property="og:description" content="初投稿！">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://scrambledegg.github.io/blog/2016/04/hello-blog/"><meta property="article:section" content="blog">
 <meta property="article:published_time" content="2016-04-22T00:00:00+00:00">
 <meta property="article:modified_time" content="2016-04-22T00:00:00+00:00">
+<meta property="og:image" content="https://scrambledegg.github.io//images/logo.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
 <meta itemprop=name content="ブログ作ってみました">
 <meta itemprop=description content="初投稿！"><meta itemprop=datePublished content="2016-04-22T00:00:00+00:00">
 <meta itemprop=dateModified content="2016-04-22T00:00:00+00:00">
 <meta itemprop=wordCount content="113">
 <meta itemprop=keywords content>
-<link rel=stylesheet href=/css/google-font.css>
-<link rel=stylesheet href=/css/font-awesome.min.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css>
 <link rel=stylesheet href=/css/main.css>
 <link rel=stylesheet href=/css/add-on.css>
-<link rel=stylesheet href=/css/monokai-sublime.css>
+<link rel=stylesheet href=/css/academicons.min.css>
+<link rel=stylesheet href=/css/custom.css>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-66624669-5','auto'),ga('send','pageview'))</script>
 </head>
 <body>
 <div id=wrapper>
 <header id=header>
-<h2><a href=/>scrambledegg</i></a></h2>
+<h1><a href=/>scrambledegg</a></h1>
 <nav class=links>
 <ul>
 <li>
@@ -53,6 +62,16 @@
 <i class="fa fa-users">&nbsp;</i>About
 </a>
 </li>
+<li>
+<a href=/privacy>
+<i class="fa fa-shield">&nbsp;</i>Privacy
+</a>
+</li>
+<li>
+<a href=/contact>
+<i class="fa fa-envelope">&nbsp;</i>Contact
+</a>
+</li>
 </ul>
 </nav>
 <nav class=main>
@@ -64,7 +83,7 @@
 <a class=fa-search href=#search>Search</a>
 <form id=search method=get action=//google.com/search>
 <input type=text name=q placeholder=Search>
-<input type=hidden name=q value=site:https://scrambledegg.github.io/>
+<input type=hidden name=as_sitesearch value=https://scrambledegg.github.io/>
 </form>
 </li>
 <li class=menu>
@@ -77,7 +96,7 @@
 <section>
 <form class=search method=get action=//google.com/search>
 <input type=text name=q placeholder=Search>
-<input type=hidden name=q value=site:https://scrambledegg.github.io/>
+<input type=hidden name=as_sitesearch value=https://scrambledegg.github.io/>
 </form>
 </section>
 <section>
@@ -85,52 +104,84 @@
 <li>
 <a href=/blog>
 <h3>
-<i class="fa fa-newspaper-o">&nbsp;</i>
-Blog
+<i class="fa fa-newspaper-o">&nbsp;</i>Blog
 </h3>
 </a>
 </li>
 <li>
 <a href=/categories>
 <h3>
-<i class="fa fa-sitemap">&nbsp;</i>
-Categories
+<i class="fa fa-sitemap">&nbsp;</i>Categories
 </h3>
 </a>
 </li>
 <li>
 <a href=/tool>
 <h3>
-<i class="fa fa-wrench">&nbsp;</i>
-Tool
+<i class="fa fa-wrench">&nbsp;</i>Tool
 </h3>
 </a>
 </li>
 <li>
 <a href=/about>
 <h3>
-<i class="fa fa-users">&nbsp;</i>
-About
+<i class="fa fa-users">&nbsp;</i>About
+</h3>
+</a>
+</li>
+<li>
+<a href=/privacy>
+<h3>
+<i class="fa fa-shield">&nbsp;</i>Privacy
+</h3>
+</a>
+</li>
+<li>
+<a href=/contact>
+<h3>
+<i class="fa fa-envelope">&nbsp;</i>Contact
 </h3>
 </a>
 </li>
 </ul>
 </section>
-<section>
-<ul class=links>
+<section class=recent-posts>
+<div class=mini-posts>
 <header>
 <h3>Recent Posts</h3>
 </header>
-<li>
-<a href=https://scrambledegg.github.io/blog/2018/09/23/hello-hasidim/><p>ハシディムさん観察</p></a>
-</li>
-<li>
-<a href=https://scrambledegg.github.io/blog/2018/07/29/guild-fight-dunbarton-shutout/><p>ダンバートン守護ギルド選抜戦完封!</p></a>
-</li>
-<li>
-<a href=https://scrambledegg.github.io/blog/2018/07/01/guild-fight-dunbarton-v10/><p>ダンバートン守護ギルド選抜戦10連勝!</p></a>
-</li>
-</ul>
+<article class=mini-post>
+<header>
+<h3><a href=/blog/2018/09/23/hello-hasidim/>ハシディムさん観察</a></h3>
+<time class=published datetime=2018-09-23>
+September 23, 2018</time>
+</header>
+<a href=/blog/2018/09/23/hello-hasidim/ class="image featured">
+<img src=/img/2018/09/23/feature.jpg alt>
+</a>
+</article>
+<article class=mini-post>
+<header>
+<h3><a href=/blog/2018/07/29/guild-fight-dunbarton-shutout/>ダンバートン守護ギルド選抜戦完封!</a></h3>
+<time class=published datetime=2018-07-29>
+July 29, 2018</time>
+</header>
+<a href=/blog/2018/07/29/guild-fight-dunbarton-shutout/ class="image featured">
+<img src=/img/2018/07/29/feature.jpg alt>
+</a>
+</article>
+<article class=mini-post>
+<header>
+<h3><a href=/blog/2018/07/01/guild-fight-dunbarton-v10/>ダンバートン守護ギルド選抜戦10連勝!</a></h3>
+<time class=published datetime=2018-07-01>
+July 1, 2018</time>
+</header>
+<a href=/blog/2018/07/01/guild-fight-dunbarton-v10/ class="image featured">
+<img src=/img/2018/07/01/feature.jpg alt>
+</a>
+</article>
+<a href=/blog/ class=button>View more posts</a>
+</div>
 </section>
 </section>
 <section id=share-menu>
@@ -139,34 +190,18 @@ About
 <header>
 <h3>Share this post <i class="fa fa-smile-o"></i></h3>
 </header>
-<li><a href="//twitter.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&text=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f&via=" target=_blank class="share-btn twitter">
+<li>
+<a href="//twitter.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&text=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f&via=moineau110" target=_blank class="share-btn twitter">
 <i class="fa fa-twitter"></i>
 <p>Twitter</p>
-</a></li>
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f" target=_blank class="share-btn google-plus">
-<i class="fa fa-google-plus"></i>
-<p>Google+</p>
-</a></li>
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f" target=_blank class="share-btn facebook">
+</a>
+</li>
+<li>
+<a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f" target=_blank class="share-btn facebook">
 <i class="fa fa-facebook"></i>
 <p>Facebook</p>
-</a></li>
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&title=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f" target=_blank class="share-btn reddit">
-<i class="fa fa-reddit-alien"></i>
-<p>Reddit</p>
-</a></li>
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&title=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f" target=_blank class="share-btn linkedin">
-<i class="fa fa-linkedin"></i>
-<p>LinkedIn</p>
-</a></li>
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&title=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f" target=_blank class="share-btn stumbleupon">
-<i class="fa fa-stumbleupon"></i>
-<p>StumbleUpon</p>
-</a></li>
-<li><a href="mailto:?subject=Check out this post by %e3%82%82%e3%81%84&body=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f" target=_blank class="share-btn email">
-<i class="fa fa-envelope"></i>
-<p>Email</p>
-</a></li>
+</a>
+</li>
 </ul>
 </section>
 </section>
@@ -174,7 +209,7 @@ About
 <article class=post>
 <header>
 <div class=title>
-<h1><a href=https://scrambledegg.github.io/blog/2016/04/hello-blog/>ブログ作ってみました</a></h1>
+<h1><a href=/blog/2016/04/hello-blog/>ブログ作ってみました</a></h1>
 <p>初投稿！</p>
 </div>
 <div class=meta>
@@ -185,37 +220,21 @@ April 22, 2016</time>
 </header>
 <section id=social-share>
 <ul class=icons>
-<li><a href="//twitter.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&text=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f&via=" target=_blank class="share-btn twitter">
+<li>
+<a href="//twitter.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&text=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f&via=moineau110" target=_blank class="share-btn twitter">
 <i class="fa fa-twitter"></i>
 <p>Twitter</p>
-</a></li>
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f" target=_blank class="share-btn google-plus">
-<i class="fa fa-google-plus"></i>
-<p>Google+</p>
-</a></li>
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f" target=_blank class="share-btn facebook">
+</a>
+</li>
+<li>
+<a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f" target=_blank class="share-btn facebook">
 <i class="fa fa-facebook"></i>
 <p>Facebook</p>
-</a></li>
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&title=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f" target=_blank class="share-btn reddit">
-<i class="fa fa-reddit-alien"></i>
-<p>Reddit</p>
-</a></li>
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&title=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f" target=_blank class="share-btn linkedin">
-<i class="fa fa-linkedin"></i>
-<p>LinkedIn</p>
-</a></li>
-<li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f&title=%e3%83%96%e3%83%ad%e3%82%b0%e4%bd%9c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%be%e3%81%97%e3%81%9f" target=_blank class="share-btn stumbleupon">
-<i class="fa fa-stumbleupon"></i>
-<p>StumbleUpon</p>
-</a></li>
-<li><a href="mailto:?subject=Check out this post by %e3%82%82%e3%81%84&body=https%3a%2f%2fscrambledegg.github.io%2fblog%2f2016%2f04%2fhello-blog%2f" target=_blank class="share-btn email">
-<i class="fa fa-envelope"></i>
-<p>Email</p>
-</a></li>
+</a>
+</li>
 </ul>
 </section>
-<a href=https://scrambledegg.github.io/blog/2016/04/hello-blog/ class="image featured">
+<a href=/blog/2016/04/hello-blog/ class="image featured">
 <img src=/img/2016/04/22/feature.jpg alt>
 </a>
 <div id=content>
@@ -225,23 +244,28 @@ April 22, 2016</time>
 </div>
 <footer>
 <ul class=stats>
-<li>
-<i class="fa fa-sitemap">&nbsp;</i>
-Category
+<li class=categories>
+<ul>
+<i class="fa fa-folder"></i>
+<li><a class=article-category-link href=https://scrambledegg.github.io/categories/mabinogi>mabinogi</a></li>
+</ul>
 </li>
-<li><a href=/categories/mabinogi>mabinogi</a></li>
+<li class=tags>
+<ul>
+</ul>
+</li>
 </ul>
 </footer>
 </article>
-<ul class="actions pagination">
-<li><a href=https://scrambledegg.github.io/blog/2016/04/cave-of-trials-ver11/ class="button big next">試練の洞窟(11周年ver)</a></li>
-</ul>
 <article class=post>
 <div id=disqus_thread></div>
 <script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//scrambledegg-github-io.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
 <noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
 <a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
 </article>
+<ul class="actions pagination">
+<li><a href=/blog/2016/04/cave-of-trials-ver11/ class="button big next">試練の洞窟(11周年ver)</a></li>
+</ul>
 </div>
 <section id=sidebar>
 <section id=intro>
@@ -250,84 +274,83 @@ Category
 <h2>scrambledegg's blog</h2>
 <p>マビノギ ルエリサーバ 6chで活動するギルドscrambledeggのブログです</p>
 </header>
-<ul class=icons>
-</ul>
 </section>
-<section id=recent-posts>
-<ul class=posts>
+<section class=recent-posts>
+<div class=mini-posts>
 <header>
 <h3>Recent Posts</h3>
 </header>
-<li>
-<article>
+<div class=posts-container>
+<article class=mini-post>
 <header>
-<h3><a href=https://scrambledegg.github.io/blog/2018/09/23/hello-hasidim/>ハシディムさん観察</a></h3>
+<h3>
+<a href=/blog/2018/09/23/hello-hasidim/>ハシディムさん観察</a>
+</h3>
 <time class=published datetime=2018-09-23>
-September 23, 2018</time>
+September 23, 2018
+</time>
 </header>
+<a href=/blog/2018/09/23/hello-hasidim/ class="image featured">
+<img src=/img/2018/09/23/feature.jpg alt>
+</a>
 </article>
-</li>
-<li>
-<article>
+<article class=mini-post>
 <header>
-<h3><a href=https://scrambledegg.github.io/blog/2018/07/29/guild-fight-dunbarton-shutout/>ダンバートン守護ギルド選抜戦完封!</a></h3>
+<h3>
+<a href=/blog/2018/07/29/guild-fight-dunbarton-shutout/>ダンバートン守護ギルド選抜戦完封!</a>
+</h3>
 <time class=published datetime=2018-07-29>
-July 29, 2018</time>
+July 29, 2018
+</time>
 </header>
+<a href=/blog/2018/07/29/guild-fight-dunbarton-shutout/ class="image featured">
+<img src=/img/2018/07/29/feature.jpg alt>
+</a>
 </article>
-</li>
-<li>
-<article>
+<article class=mini-post>
 <header>
-<h3><a href=https://scrambledegg.github.io/blog/2018/07/01/guild-fight-dunbarton-v10/>ダンバートン守護ギルド選抜戦10連勝!</a></h3>
+<h3>
+<a href=/blog/2018/07/01/guild-fight-dunbarton-v10/>ダンバートン守護ギルド選抜戦10連勝!</a>
+</h3>
 <time class=published datetime=2018-07-01>
-July 1, 2018</time>
+July 1, 2018
+</time>
 </header>
+<a href=/blog/2018/07/01/guild-fight-dunbarton-v10/ class="image featured">
+<img src=/img/2018/07/01/feature.jpg alt>
+</a>
 </article>
-</li>
-<li>
-<ul class=actions>
-<li><a href=/blog/ class=button>View more posts</a></li>
-</ul>
-</li>
-</ul>
+</div>
+<a href=/blog/ class=button>View more posts</a>
+</div>
 </section>
-<section id=categories>
-<ul class=posts>
-<header>
-<h3><a href=/categories/>Categories</a></h3>
-</header>
-<li>
-<article>
-<header>
-<a href=/categories/mabinogi/>mabinogi</a>
-<span style=float:right>15</span>
-</header>
-</article>
-</li>
-</ul>
-</section>
-<section class=blurb>
-<h2>About</h2>
+<section id=mini-bio>
+<h3>About</h3>
 <p>ギルド石はダンバートン北。たまり場はダンバートンの広場です！</p>
-<ul class=actions>
-<li><a href=/about/ class=button>Learn More</a></li>
-</ul>
+<a href=/about/ class=button>Learn More</a>
 </section>
 <section id=footer>
-<ul class=icons>
-</ul>
-<p class=copyright>&copy; scrambledegg's blog. Design: <a href=http://html5up.net target=_blank>HTML5 UP</a>. Ported by <a href=//github.com/jpescador target=_blank>Julio Pescador</a>. Powered by <a href=//gohugo.io target=_blank>Hugo</a></p>
+<p class=copyright>
+&copy; 2018
+scrambledegg's blog
+.
+Powered by <a href=//gohugo.io target=_blank>Hugo</a>
+</p>
 </section>
 </section>
 </div>
 <a id=back-to-top href=# class="fa fa-arrow-up fa-border fa-2x"></a>
-<script src=/js/jquery.min.js></script>
-<script src=/js/skel.min.js></script>
+<script src=//cdn.bootcss.com/highlight.js//highlight.min.js></script>
+<script>hljs.configure({languages:[]}),hljs.initHighlightingOnLoad()</script>
+<script src=https://code.jquery.com/jquery-3.2.1.min.js integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js></script>
 <script src=/js/util.js></script>
 <script src=/js/main.js></script>
 <script src=/js/backToTop.js></script>
-<script src=/js/highlight.pack.js></script>
+<script src=/js/custom.js></script>
 <script>hljs.initHighlightingOnLoad()</script>
+<script src=//yihui.name/js/math-code.js></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>
