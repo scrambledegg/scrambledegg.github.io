@@ -1,12 +1,14 @@
 baseurl = "https://scrambledegg.github.io/"
-languageCode = "ja-JP"
+locale = "ja-JP"
 hasCJKLanguage = true
 title = "scrambledegg's blog"
 theme = "hugo-future-imperfect"
-preserveTaxonomyNames = true
-paginate = 3
-disqusShortname = "scrambledegg-github-io"
-googleAnalytics = "UA-66624669-5"
+
+[pagination]
+    pagerSize = 3
+
+[services.disqus]
+    shortname = "scrambledegg-github-io"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
@@ -115,7 +117,7 @@ googleAnalytics = "UA-66624669-5"
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
-[social]
+[params.social]
     github          = ""
     bitbucket       = ""
     jsfiddle        = ""
