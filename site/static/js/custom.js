@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // for footnote
-    Array.prototype.forEach.call(document.querySelectorAll("a[rel='footnote']"), function(item) {
+    Array.prototype.forEach.call(document.querySelectorAll("a[role='doc-noteref'], a[rel='footnote']"), function(item) {
         let href = item.getAttribute("href");
         if (href == null)
             return;
@@ -11,4 +11,3 @@ document.addEventListener("DOMContentLoaded", function() {
         target.style.paddingTop = "100px";
     });
 });
-
