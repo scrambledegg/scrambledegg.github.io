@@ -23,7 +23,7 @@ jobs:
       - run: hugo --minify
         working-directory: ./site
 
-      - run: npm i
+      - run: npm ci
       - run: npm run optimize
 
       - uses: actions/upload-pages-artifact@v3
