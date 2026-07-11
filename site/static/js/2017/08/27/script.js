@@ -22,44 +22,46 @@ var chart = new Chart(ctx, {
     }],
   },
   options: {
-    legend: {
-      display: false,
-    },
-    title: {
-      display: true,
-      text: '23マス埋まっている確率',
-    },
-    tooltips: {
-      mode: 'x',
-      intersect: false,
-      displayColors: false,
-      callbacks: {
-        title: function(tooltipItems) {
-          return tooltipItems[0].xLabel + '回ビンゴ回した時の確率'
-
-        },
-        label: function(tooltipItem) {
-          return tooltipItem.yLabel + '%'
+    responsive: true,
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: true,
+        text: '23マス埋まっている確率',
+      },
+      tooltip: {
+        mode: 'x',
+        intersect: false,
+        displayColors: false,
+        callbacks: {
+          title: function(tooltipItems) {
+            return tooltipItems[0].label + '回ビンゴ回した時の確率'
+          },
+          label: function(context) {
+            return context.parsed.y + '%'
+          },
         },
       },
     },
     scales: {
-      xAxes: [{
+      x: {
         ticks: {
           autoSkip: true,
           maxTicksLimit: 24,
         },
-        scaleLabel: {
+        title: {
           display: true,
-          labelString: '回数',
+          text: '回数',
         },
-      }],
-      yAxes: [{
-        scaleLabel: {
+      },
+      y: {
+        title: {
           display: true,
-          labelString: '確率',
+          text: '確率',
         },
-      }],
+      },
     },
   },
 })

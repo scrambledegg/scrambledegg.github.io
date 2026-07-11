@@ -141,7 +141,7 @@ for i in range(NUM):
 ```
 
 {{<raw>}}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
 <link rel="stylesheet" href="/css/chart.css">
 <script src="/js/2017/08/27/script.js"></script>
 <script type="text/x-mathjax-config">
