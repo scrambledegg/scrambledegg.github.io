@@ -83,9 +83,9 @@ type = "post"
 2番目は、サポショにペットアタックしないように慌てて消したりして起きてたんじゃないかと思っています。
 PTで行ってるときの動画にないからわからないけれど、このとき鉱物が降ってきてないなら合っていそう、だけどどうだったか……。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sy9kA70OAO0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{{< youtube sy9kA70OAO0 >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w73CT7916bo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{{< youtube w73CT7916bo >}}
 
 
 ガシと違ってモーション中でもスキルキャンセルできるみたいです
@@ -97,7 +97,7 @@ PTで行ってるときの動画にないからわからないけれど、この
 - 魂の追撃
 - 鉱物爆発
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JJmeWkWlcEw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{{< youtube JJmeWkWlcEw >}}
 
 
 ## 余談
