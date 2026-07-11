@@ -81,14 +81,14 @@ Hさんいわく、コルプレのラッパを使うと
 
 {{<raw>}}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.16/clipboard.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
 <style type="text/css">
 .clipboard-btn {
   text-transform: none;
 }
 </style>
 <script>
-const clipboard = new Clipboard('.clipboard-btn');
+const clipboard = new ClipboardJS('.clipboard-btn');
 clipboard.on('success', function(e) {
     const btn = e.trigger;
     btn.setAttribute("data-balloon", "Copied")
