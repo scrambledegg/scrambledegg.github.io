@@ -1,5 +1,9 @@
-<script src="//yihui.name/js/math-code.js"></script>
-<script async
-src="{{ .Site.Params.MathJaxCDN | default "//cdn.bootcss.com"}}/mathjax/{{ .Site.Params.MathJaxVersion | default "2.7.1" }}/MathJax.js?config=TeX-MML-AM_CHTML">
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+  },
+};
 </script>
-
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@4.1.3/tex-mml-chtml.js"></script>
