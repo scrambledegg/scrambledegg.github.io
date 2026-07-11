@@ -34,6 +34,9 @@ googleAnalytics = "UA-66624669-5"
     # files by adding the value, "default".
     customCSS            = ["default", "/css/custom.css"]
     customJS             = ["default", "/js/custom.js"]
+    highlightjsVersion   = "11.11.1"
+    highlightjsCDN       = "https://cdnjs.cloudflare.com/ajax/libs"
+    highlightjsTheme     = "github"
 
     socialShare            = true
     socialShareTwitter     = true
