@@ -57,7 +57,9 @@ $$
 
 さて、この$P^n$の指数$n$を増やしながら、
 石をいくつ使うとどのくらいの確率で5段階になるのか計算した結果、次のグラフのようになりました。
-<div id="chart" class="chart"></div>
+{{<raw>}}
+<canvas id="chart" class="chart"></canvas>
+{{</raw>}}
 
 (6段階する勇気ないので5段階までですごめんなさい。)
 
@@ -94,14 +96,8 @@ for i in range(NUM):
     powerP = powerP @ P
 ```
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.css">
-<link rel="stylesheet" href="/css/chart.css">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
-<script src="/js/2016/05/08/script.js"></script>
-<script type="text/x-mathjax-config">
 {{<raw>}}
-  MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
+<link rel="stylesheet" href="/css/chart.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+<script src="/js/2016/05/08/script.js"></script>
 {{</raw>}}
-</script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>

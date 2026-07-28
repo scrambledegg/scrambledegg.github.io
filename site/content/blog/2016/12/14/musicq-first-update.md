@@ -68,23 +68,27 @@ Hさんいわく、コルプレのラッパを使うと
 良かったらどうぞ…
 
 メロディー  
+{{<raw>}}
 <input type="text" id="raw-mml" value="t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4">
 <button class="clipboard-btn" data-clipboard-target="#raw-mml"><span class="fa fa-clipboard"></span></button>
+{{</raw>}}
 
 クリップボードから読み込めるver  
+{{<raw>}}
 <input type="text" id="readable-from-clipboard-mml" value="MML@t150r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4r4;">
 <button class="clipboard-btn" data-clipboard-target="#readable-from-clipboard-mml"><span class="fa fa-clipboard"></span></button>
+{{</raw>}}
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.16/clipboard.min.js"></script>
 {{<raw>}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
 <style type="text/css">
 .clipboard-btn {
   text-transform: none;
 }
 </style>
 <script>
-const clipboard = new Clipboard('.clipboard-btn');
+const clipboard = new ClipboardJS('.clipboard-btn');
 clipboard.on('success', function(e) {
     const btn = e.trigger;
     btn.setAttribute("data-balloon", "Copied")

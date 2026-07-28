@@ -17,7 +17,7 @@
         {{ range .Params.highlightjsLang }}{{ $.Scratch.Add "highLangs" . }}{{ end }}
         {{ range ($.Scratch.Get "highLangs") }}
         <script src="{{ $highCDN }}/highlight.js/{{ $highVer }}/languages/{{ . }}.min.js"></script>{{ end }}
-        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+        <script>hljs.highlightAll();</script>
       {{ end }}
     {{ end }}
     <!-- If the value "default" is passed into the param then we will first
@@ -39,8 +39,6 @@
       {{ end }}
     {{ end }}
 
-    <!-- This is called by default since this theme uses highlight.js -->
-    <script>hljs.initHighlightingOnLoad();</script>
       {{ partial "footer_mathjax" . }}
   </body>
 </html>

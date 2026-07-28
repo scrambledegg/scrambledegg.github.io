@@ -71,7 +71,9 @@ $P'^n$の$23$列目の確率は$n$回ビンゴを回したときに23マス埋�
 さて、この$P'^n$の指数$n$を増やしながらビンゴカードを何回回すと、
 どのくらいの確率で23マス埋まるのか計算した結果、次のグラフのようになりました。
 
+{{<raw>}}
 <canvas id="chart" class="chart"></canvas>
+{{</raw>}}
 
 これによると75回ビンゴを回せば90%を超えます。
 
@@ -138,12 +140,8 @@ for i in range(NUM):
     print(power_prob[-1] * 100)
 ```
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
+{{<raw>}}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
 <link rel="stylesheet" href="/css/chart.css">
 <script src="/js/2017/08/27/script.js"></script>
-<script type="text/x-mathjax-config">
-{{<raw>}}
-  MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
 {{</raw>}}
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
