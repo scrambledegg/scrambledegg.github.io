@@ -18,6 +18,6 @@
   "homepage": "https://github.com/scrambledegg/scrambledegg.github.io#readme",
   "devDependencies": {
     "sharp": "0.35.3",
-    "svgo": "4.0.1"
+    "svgo": "4.0.2"
   }
 }
